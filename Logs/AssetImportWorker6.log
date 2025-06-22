@@ -1,0 +1,2148 @@
+Unity Editor version:    6000.0.42f1 (feb9a7235030)
+Branch:                  6000.0/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.6.1 (Build 23G93)
+Darwin version:          23.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.0.42f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+/Users/nigelmorris/Documents/GitHub/FPS
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+57248
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: /Users/nigelmorris/Documents/GitHub/FPS
+/Users/nigelmorris/Documents/GitHub/FPS
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8275054400]  Target information:
+
+Player connection [8275054400]  * "[IP] 192.168.86.227 [Port] 0 [Flags] 2 [Guid] 3853001868 [EditorId] 3853001868 [Version] 1048832 [Id] OSXEditor(0,nigels-air.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8275054400] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8275054400] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.42f1 (feb9a7235030)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.42f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/nigelmorris/Documents/GitHub/FPS/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.42f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.42f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.0.42f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56785
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.42f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.42f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.025270 seconds.
+- Loaded All Assemblies, in  0.904 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.387 seconds
+Domain Reload Profiling: 1291ms
+	BeginReloadAssembly (412ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (335ms)
+		LoadAssemblies (420ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (324ms)
+			TypeCache.Refresh (322ms)
+				TypeCache.ScanAssembly (287ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (388ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (331ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (72ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.883 seconds
+Refreshing native plugins compatible for Editor in 0.16 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-FPS
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.128 seconds
+Domain Reload Profiling: 2011ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (130ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (565ms)
+		LoadAssemblies (268ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (348ms)
+			TypeCache.Refresh (279ms)
+				TypeCache.ScanAssembly (259ms)
+			BuildScriptInfoCaches (53ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1129ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (958ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (219ms)
+			ProcessInitializeOnLoadAttributes (580ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.42f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.20 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 163 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4728 unused Assets / (3.2 MB). Loaded Objects now: 5298.
+Memory consumption went from 142.7 MB to 139.5 MB.
+Total: 13.079458 ms (FindLiveObjects: 1.057292 ms CreateObjectMapping: 0.178416 ms MarkObjects: 9.851250 ms  DeleteObjects: 1.992000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 130577.408320 seconds.
+  path: Assets/FPS/Prefabs/VFX/Directional Light.prefab
+  artifactKey: Guid(c1f95b2a073069e4091731002c38a3df) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Prefabs/VFX/Directional Light.prefab using Guid(c1f95b2a073069e4091731002c38a3df) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3e1d0f8b3b2e6e84eed9e53ffaff89a6') in 0.222358958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003436 seconds.
+  path: Assets/FPS/Scenes/SecondaryScene.unity
+  artifactKey: Guid(8f9b202ceb1634283b1788e9323abf0f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Scenes/SecondaryScene.unity using Guid(8f9b202ceb1634283b1788e9323abf0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7d11ca1c5414035b78fbb8f38d342d5') in 0.327561708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001158 seconds.
+  path: Assets/FPS/Tutorials/AddARoom/071-Select-Object.asset
+  artifactKey: Guid(0a6c7076c7acf404bb939f4e7e80d646) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Tutorials/AddARoom/071-Select-Object.asset using Guid(0a6c7076c7acf404bb939f4e7e80d646) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c2de7bfbd5e299e24eb67dbdf355138d') in 0.030279917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001877 seconds.
+  path: Assets/FPS/Tutorials/AddAnAsset/AddAnAsset-10.asset
+  artifactKey: Guid(7cb92544831784d40a29f2971a6b3a85) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Tutorials/AddAnAsset/AddAnAsset-10.asset using Guid(7cb92544831784d40a29f2971a6b3a85) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3f07d85dedb74749455ee3f926116f20') in 0.004742709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002917 seconds.
+  path: Assets/AddOns/Mg3D_Animated_Sci-fi/Meshes/Artillery_01.asset
+  artifactKey: Guid(1b72507554d304e4290e955dbc2768a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/Mg3D_Animated_Sci-fi/Meshes/Artillery_01.asset using Guid(1b72507554d304e4290e955dbc2768a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7675f64f8b35678d032a0b1bae35a175') in 0.017782875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/AddOns/Mg3D_Animated_Sci-fi/Materials/Machine Green.mat
+  artifactKey: Guid(86c38cc17be868947801ac9b80453963) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/Mg3D_Animated_Sci-fi/Materials/Machine Green.mat using Guid(86c38cc17be868947801ac9b80453963) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66f78d6ceb9917998e54ee93427dcbc6') in 0.047386459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001277 seconds.
+  path: Assets/FPS/Prefabs/VFX/VFX_LazerSparksBlue.prefab
+  artifactKey: Guid(358eca6adc32a89459c54b6b62d9c825) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Prefabs/VFX/VFX_LazerSparksBlue.prefab using Guid(358eca6adc32a89459c54b6b62d9c825) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '86c78ccd1a21a82bc17e9550ccd5ae41') in 0.015719333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001178 seconds.
+  path: Assets/FPS/Tutorials/AddAnAsset/AddAnAsset-01.asset
+  artifactKey: Guid(dc9b1b1cb98344f3780ba96d4f32c225) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Tutorials/AddAnAsset/AddAnAsset-01.asset using Guid(dc9b1b1cb98344f3780ba96d4f32c225) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '13d3ecccd661314b4eb174f8b65d7ede') in 0.006198125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006075 seconds.
+  path: Assets/AddOns/Mg3D_Animated_Sci-fi/Meshes/SA_MechanicalArm_06.asset
+  artifactKey: Guid(b0c5bbfee139f1f48a16ccbab6c5fab4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/AddOns/Mg3D_Animated_Sci-fi/Meshes/SA_MechanicalArm_06.asset using Guid(b0c5bbfee139f1f48a16ccbab6c5fab4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c7946bc8016032a33789fb99120aaab3') in 0.005323917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000702 seconds.
+  path: Assets/AddOns/MgFPS_Quasar/Quasar_ReadMe.txt
+  artifactKey: Guid(ec58b060550f01048a8eda193e316161) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Quasar/Quasar_ReadMe.txt using Guid(ec58b060550f01048a8eda193e316161) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8baec0e1cc9d61025399d3d927dd6a2') in 0.005632834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/FPS/Scenes/SecondaryScene/LightingData.asset
+  artifactKey: Guid(71d822b50dbb0ee48818734bde93a095) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Scenes/SecondaryScene/LightingData.asset using Guid(71d822b50dbb0ee48818734bde93a095) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'cd3ac42b2832fcf97c270bec715284cd') in 0.002818916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002007 seconds.
+  path: Assets/AddOns/MgFPS_Haku/Haku_ReadMe.txt
+  artifactKey: Guid(9c8b6b1c2d98bff43b8cf9fc27cf8bef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Haku/Haku_ReadMe.txt using Guid(9c8b6b1c2d98bff43b8cf9fc27cf8bef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3de68e19af447867dd750b1e8d2bbeb5') in 0.002455625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000813 seconds.
+  path: Assets/AddOns/Mg3D_Animated_Sci-fi/Meshes/SA_MechanicalArm_04.asset
+  artifactKey: Guid(d6c3dc42ef307024b9a445184897eeeb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/AddOns/Mg3D_Animated_Sci-fi/Meshes/SA_MechanicalArm_04.asset using Guid(d6c3dc42ef307024b9a445184897eeeb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c44658630bd838de3faa7b51b71ef476') in 0.00426975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/AddOns/Mg3D_Animated_Sci-fi/Meshes/SA_MechanicalArm_03.asset
+  artifactKey: Guid(1ad3570eccc2ba1438fe8473972e0659) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/Mg3D_Animated_Sci-fi/Meshes/SA_MechanicalArm_03.asset using Guid(1ad3570eccc2ba1438fe8473972e0659) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c969dfc6ded73d58644f210880c8599') in 0.005543375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Audio/Enemy_Boss_AudioMixer.mixer
+  artifactKey: Guid(28ea2724a075d32428d4c6323d2e0ba7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Audio/Enemy_Boss_AudioMixer.mixer using Guid(28ea2724a075d32428d4c6323d2e0ba7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: 'bc019e0432d3a119c41fb495f7a1016f') in 0.038836584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000579 seconds.
+  path: Assets/AddOns/MgFPS_Aurous/Aurous_SFX/Aurous_PowerUp.wav
+  artifactKey: Guid(ea917361823e5504ab0f0ac61bf61587) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Aurous/Aurous_SFX/Aurous_PowerUp.wav using Guid(ea917361823e5504ab0f0ac61bf61587) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e406e2e8098678b134193d574324093') in 0.026441375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/AddOns/MgFPS_Aurous/Aurous_Animation/Weapon_Aurous.controller
+  artifactKey: Guid(5cd227f4350789646b79a96538f28864) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Aurous/Aurous_Animation/Weapon_Aurous.controller using Guid(5cd227f4350789646b79a96538f28864) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd62cb4383043997f0208c587fbc5ebf') in 0.005879666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002252 seconds.
+  path: Assets/FPS/Tutorials/EditColors/08-Done.asset
+  artifactKey: Guid(d7e4166225f6e40a6a76a0ef2e7ce187) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Tutorials/EditColors/08-Done.asset using Guid(d7e4166225f6e40a6a76a0ef2e7ce187) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a7fbe9ed4e54e13251e8fd12b56a599c') in 0.359804833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 875
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/AddOns/MgFPS_Aurous/Aurous_SFX/Aurous_Fire.wav
+  artifactKey: Guid(cec069c11ef0d874fa70e5eee730b0fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Aurous/Aurous_SFX/Aurous_Fire.wav using Guid(cec069c11ef0d874fa70e5eee730b0fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd56b4ed3851b14cfc1dc65a79f895e5c') in 0.046477208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001602 seconds.
+  path: Assets/AddOns/Mg3D_Animated_Sci-fi/Prefabs/SA_MechanicalArm_Assembled_Animated.prefab
+  artifactKey: Guid(5549f14ccca267145bc072bb0c8837bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/Mg3D_Animated_Sci-fi/Prefabs/SA_MechanicalArm_Assembled_Animated.prefab using Guid(5549f14ccca267145bc072bb0c8837bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8769baf5970f1fc0c91a127f40dfd2c') in 0.036013625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 75
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/FPS/Tutorials/BuildAndPublish/Walkthrough7-015.asset
+  artifactKey: Guid(daafa2d048ca372498d84eb1ff8a9a31) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Tutorials/BuildAndPublish/Walkthrough7-015.asset using Guid(daafa2d048ca372498d84eb1ff8a9a31) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e1b93fa4b9dfdc2077e46693dfcec1d7') in 0.00546875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003500 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Materials/Navigation_Module_TwinJet.mat
+  artifactKey: Guid(c7973a091e3e036429736d066bf26267) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Materials/Navigation_Module_TwinJet.mat using Guid(c7973a091e3e036429736d066bf26267) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e05907226f37aab38f51dd87a0669f78') in 0.006125417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001512 seconds.
+  path: Assets/FPS/Tutorials/Playtest/05-Select-Object.asset
+  artifactKey: Guid(2d1257a40bff04ff7b1c691749feedbb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Tutorials/Playtest/05-Select-Object.asset using Guid(2d1257a40bff04ff7b1c691749feedbb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'cea002c7b2e31803d944038ff48ce861') in 0.00268075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/ModAssets/Prefabs/Trail Prefabs/LaserTrail.prefab
+  artifactKey: Guid(c6e20ffe6d2b946fb9896031aa048f90) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/ModAssets/Prefabs/Trail Prefabs/LaserTrail.prefab using Guid(c6e20ffe6d2b946fb9896031aa048f90) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '65773fc6375b645918a0bbb65c9c6209') in 0.003019584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/FPS/Prefabs/Level/BaseObjects/Floor_HalfIndented_Mesh.prefab
+  artifactKey: Guid(d207437c57685d148828d9db69949ca2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Prefabs/Level/BaseObjects/Floor_HalfIndented_Mesh.prefab using Guid(d207437c57685d148828d9db69949ca2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '6065c36ba2ff3c7ae32daf42ed359231') in 0.002386667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b675d4b59ae77cb9cb459483dcce02b3') in 0.020026875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/FPS/Prefabs/Level/BaseObjects/Ramp_3m_Mesh.prefab
+  artifactKey: Guid(e2b37056c9c4c0b4c808ca97af52c753) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Prefabs/Level/BaseObjects/Ramp_3m_Mesh.prefab using Guid(e2b37056c9c4c0b4c808ca97af52c753) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '22483575eec2d6318e4e15076d4c8bed') in 0.003364167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/FPS/Tutorials/EditColors/05-Other-Materials - delete.asset
+  artifactKey: Guid(67d9d6c17c5fb482692a74924d1be11e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Tutorials/EditColors/05-Other-Materials - delete.asset using Guid(67d9d6c17c5fb482692a74924d1be11e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '485e4f7f738975eb2774307d5526aa90') in 0.003113542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/FPS/Prefabs/Level/BaseObjects/Dun_BigDoor_Mesh.prefab
+  artifactKey: Guid(7bc503aa9132b4e47a448315b66731b4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Prefabs/Level/BaseObjects/Dun_BigDoor_Mesh.prefab using Guid(7bc503aa9132b4e47a448315b66731b4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b4e20a2c6efaec0f9352ac57c3945d31') in 0.003231791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/AddOns/MgFPS_BossRemixSFX/Detection/BossRmx_TVModule_EnemyDetected02.ogg
+  artifactKey: Guid(1bd49bc7baa91304c9635f7a29740aa1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_BossRemixSFX/Detection/BossRmx_TVModule_EnemyDetected02.ogg using Guid(1bd49bc7baa91304c9635f7a29740aa1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0a4310ce72972663fdabffc367ed682') in 0.022387084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/FPS/Prefabs/Level/BaseObjects/Wall_1m_Mesh.prefab
+  artifactKey: Guid(22ee8966e4c728a418415db5731c87ae) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Prefabs/Level/BaseObjects/Wall_1m_Mesh.prefab using Guid(22ee8966e4c728a418415db5731c87ae) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '1a2a645fe97fe31eb2a54efb40dff1de') in 0.006693375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000579 seconds.
+  path: Assets/FPS/Tutorials/AddEnemyBot/005.asset
+  artifactKey: Guid(0dc14045fb36344f4bf9f8e3a8d37ffe) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Tutorials/AddEnemyBot/005.asset using Guid(0dc14045fb36344f4bf9f8e3a8d37ffe) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f49f88002d3ae1be1be783bd5029ec05') in 0.009567041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/AddOns/Mg3D_Animated_Sci-fi/Meshes/Pod_Pool_snaps012.asset
+  artifactKey: Guid(fa80b7e408d4bcf49bc7c4db27cea257) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/Mg3D_Animated_Sci-fi/Meshes/Pod_Pool_snaps012.asset using Guid(fa80b7e408d4bcf49bc7c4db27cea257) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ea73405b4d002d3d344164aba75e195') in 0.005984166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/AddOns/Mg3D_Animated_Sci-fi/Meshes/SA_MechanicalArm_08.asset
+  artifactKey: Guid(b19d378afbc7d154eb40cd7f30d181f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/Mg3D_Animated_Sci-fi/Meshes/SA_MechanicalArm_08.asset using Guid(b19d378afbc7d154eb40cd7f30d181f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '494d98e8c4f355ebcd83c504a811a868') in 0.00325025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ModAssets/Prefabs/Trail Prefabs/FireTrail.prefab
+  artifactKey: Guid(dfa71f3ca0c2e408c855c56585bfbaad) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/ModAssets/Prefabs/Trail Prefabs/FireTrail.prefab using Guid(dfa71f3ca0c2e408c855c56585bfbaad) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '19b4f29177174187403a1c0bf6e05bce') in 0.004763916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000740 seconds.
+  path: Assets/AddOns/MgFPS_BossRemixSFX/Detection/BossRmx_Movement.ogg
+  artifactKey: Guid(4808d7ab674ba534ca67ae8a4c2b4e03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_BossRemixSFX/Detection/BossRmx_Movement.ogg using Guid(4808d7ab674ba534ca67ae8a4c2b4e03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6868621def54c19fbde2b71f62e232fb') in 0.022096125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/AddOns/Mg3D_Animated_Sci-fi/Meshes/SA_MechanicalArm_03.asset
+  artifactKey: Guid(1ad3570eccc2ba1438fe8473972e0659) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/AddOns/Mg3D_Animated_Sci-fi/Meshes/SA_MechanicalArm_03.asset using Guid(1ad3570eccc2ba1438fe8473972e0659) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '4a8077625de5152c42413b7470724359') in 0.005918708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/ModAssets/Fonts/Merriweather-Regular SDF.asset
+  artifactKey: Guid(ea4179ba609564f33b822e1be581b321) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ModAssets/Fonts/Merriweather-Regular SDF.asset using Guid(ea4179ba609564f33b822e1be581b321) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c50c62a6bd7b8129ef8785619f65a23') in 0.082516958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001716 seconds.
+  path: Assets/AddOns/MgFPS_Boomshot/Weapon_Boomshot.prefab
+  artifactKey: Guid(f9e6f47202077c64dba51eef4eda7fd4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Boomshot/Weapon_Boomshot.prefab using Guid(f9e6f47202077c64dba51eef4eda7fd4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0060a45929f827fe8c02977bb121aff1') in 0.091562834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007727 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Prefabs/Weapon_Module_RocketLauncher_R.prefab
+  artifactKey: Guid(7408074a3164d2e42b1d498c8c9ae858) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Prefabs/Weapon_Module_RocketLauncher_R.prefab using Guid(7408074a3164d2e42b1d498c8c9ae858) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '47ab8d1e244c7f191250674fd934086a') in 0.04168575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 209
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/FPS/Tutorials/Tutorial Project Settings.asset
+  artifactKey: Guid(82ccda3adf0ba49e1ba86e30edff0cc5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Tutorials/Tutorial Project Settings.asset using Guid(82ccda3adf0ba49e1ba86e30edff0cc5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '057553fd38b062361c80d559f2d9e034') in 0.319084458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 885
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002382 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Materials/VFX_PhotonCannon_Projectile_MuzzleFlash.mat
+  artifactKey: Guid(c29d38b5bc7ccb04f99a49024ebc6b51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Materials/VFX_PhotonCannon_Projectile_MuzzleFlash.mat using Guid(c29d38b5bc7ccb04f99a49024ebc6b51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '140da50d2070467c24c34f1edc2463e2') in 0.009919042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002980 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Models/Detection_Module_Laser01_R.fbx
+  artifactKey: Guid(7f37241b427ce0e4699e538320f8c694) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Models/Detection_Module_Laser01_R.fbx using Guid(7f37241b427ce0e4699e538320f8c694) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f0370c313b8e337de08bf507b44dc2d') in 0.037510875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000827 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Models/Detection_Module_Laser03_L.fbx
+  artifactKey: Guid(526345eff958f04459d0fb17c6fa772a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Models/Detection_Module_Laser03_L.fbx using Guid(526345eff958f04459d0fb17c6fa772a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a2b82389ce5d3edebfd3c5d04e05c61') in 0.014760125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000874 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Models/Weapon_Module_SpinningRadar_R.fbx
+  artifactKey: Guid(ace37c91a88d5e5469bd9a6bc2890bdb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Models/Weapon_Module_SpinningRadar_R.fbx using Guid(ace37c91a88d5e5469bd9a6bc2890bdb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81f9fd636b88322576414513ea10a57e') in 0.032515959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002527 seconds.
+  path: Assets/FPS/Prefabs/Level/Floors/Floor_9x9.prefab
+  artifactKey: Guid(9b7d8a511d161be4d9c32aae2e937170) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Prefabs/Level/Floors/Floor_9x9.prefab using Guid(9b7d8a511d161be4d9c32aae2e937170) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '48008db9ea10975183d399997cf1e381') in 0.073456625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 943
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/FPS/Prefabs/Level/Walls/Wall_DoorLarge.prefab
+  artifactKey: Guid(91732847dbb8d924185dc7bf4516509c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Prefabs/Level/Walls/Wall_DoorLarge.prefab using Guid(91732847dbb8d924185dc7bf4516509c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '04c18d0cd7e44632e8964304e166b114') in 0.003552625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003438 seconds.
+  path: Assets/FPS/Prefabs/Level/MainLvl/Section2/Entry_Section.prefab
+  artifactKey: Guid(02eee05f11a824a40bff1529b0c3c055) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Prefabs/Level/MainLvl/Section2/Entry_Section.prefab using Guid(02eee05f11a824a40bff1529b0c3c055) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '2af2ca2934ecdb645f0a93eabe0d5f84') in 0.120733292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3223
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/FPS/Prefabs/Level/Dungeon/Dun_Fork.prefab
+  artifactKey: Guid(0a5a49e8197f8d34e90e825e26c9ecb2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Prefabs/Level/Dungeon/Dun_Fork.prefab using Guid(0a5a49e8197f8d34e90e825e26c9ecb2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '1962da578c87ba2c63436a62d2b1e879') in 0.062448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 748
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Prefabs/Enemy_Boss_Variant03.prefab
+  artifactKey: Guid(7b07e9392d404744184d222ed91907d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Prefabs/Enemy_Boss_Variant03.prefab using Guid(7b07e9392d404744184d222ed91907d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a8eb6a0a33e62ecd3669f21e405f1e1') in 0.065173584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 356
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000814 seconds.
+  path: Assets/FPS/Prefabs/Level/Dungeon/Dun_Wall_Open.prefab
+  artifactKey: Guid(1e4bd8ac328e4bb4fbbee62ca0f24a98) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Prefabs/Level/Dungeon/Dun_Wall_Open.prefab using Guid(1e4bd8ac328e4bb4fbbee62ca0f24a98) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '18457862781d7bc6c86e5c9f5aea603e') in 0.010717542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 84
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/FPS/Prefabs/Level/Crawl/Crawl_Hall.prefab
+  artifactKey: Guid(af7e40baf6cbccc4eb3f8a7831226b96) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FPS/Prefabs/Level/Crawl/Crawl_Hall.prefab using Guid(af7e40baf6cbccc4eb3f8a7831226b96) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3897fa0729efa8c652b60ce9c8e70a28') in 0.013660042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 277
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002877 seconds.
+  path: Assets/AddOns/MgFPS_Boomshot/BoomShot_VFX/BoomShot_Overheat.prefab
+  artifactKey: Guid(0c83981f98d88cc47ab998b8c755a99a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Boomshot/BoomShot_VFX/BoomShot_Overheat.prefab using Guid(0c83981f98d88cc47ab998b8c755a99a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67418ea159c15f15031ef8ef832eca54') in 0.12547925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000888 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Models/Detection_Module_Laser01_L.fbx
+  artifactKey: Guid(3fbd43ce6f9ca674caad4520046f1708) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Models/Detection_Module_Laser01_L.fbx using Guid(3fbd43ce6f9ca674caad4520046f1708) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4bd4bd573354a078c8322e820039be3f') in 0.016934125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005832 seconds.
+  path: Assets/FPS/Tutorials/TutorialLayout.wlt
+  artifactKey: Guid(9d6f44592b6054254899886ee83841f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Tutorials/TutorialLayout.wlt using Guid(9d6f44592b6054254899886ee83841f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6b602da045447da224c6c95a773f0a1') in 0.002070167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002893 seconds.
+  path: Assets/AddOns/Mg3D_Animated_Sci-fi/Meshes/Generator_A_02.asset
+  artifactKey: Guid(d0f136b1ca0f5624ba52e484ce360542) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/Mg3D_Animated_Sci-fi/Meshes/Generator_A_02.asset using Guid(d0f136b1ca0f5624ba52e484ce360542) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3614dc5f6129c325345184fcce282a9e') in 0.011451208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002809 seconds.
+  path: Assets/AddOns/Mg3D_Animated_Sci-fi/Meshes/Pod_Arm_R_03_snaps012.asset
+  artifactKey: Guid(1826c3d69c5db844fb7f9db79b7ce189) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/Mg3D_Animated_Sci-fi/Meshes/Pod_Arm_R_03_snaps012.asset using Guid(1826c3d69c5db844fb7f9db79b7ce189) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa1fb7e53f42fd1489be7a9cf236c8c3') in 0.003206458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007107 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Materials/VFX_PhotonCannon_Projectile_Sparks.mat
+  artifactKey: Guid(4ee41eae8e839d445baf04cb6648c551) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Materials/VFX_PhotonCannon_Projectile_Sparks.mat using Guid(4ee41eae8e839d445baf04cb6648c551) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f89a08862febb7befab0c2e8947fa1c') in 0.009369917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001615 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '092fa0a57a536d7b4ca317535896da94') in 0.006628416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004759 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Models/Detection_Module_TV_L.fbx
+  artifactKey: Guid(a1f6d7cdf5b6660488fce0e05f422f5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Models/Detection_Module_TV_L.fbx using Guid(a1f6d7cdf5b6660488fce0e05f422f5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0875edaf7a991359d28e9543939249a0') in 0.023321125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001490 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad0902e9cbebf0d6363faff594d97e41') in 0.011088375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.221875 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Prefabs/VFX_Railgun_MuzzleFlash.prefab
+  artifactKey: Guid(c6745e43eec8eaf438dab5654972c3ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Prefabs/VFX_Railgun_MuzzleFlash.prefab using Guid(c6745e43eec8eaf438dab5654972c3ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a493fc643779d09837d3d26bd6173c2') in 0.049091667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Scenes/DemoFPSBoss.unity
+  artifactKey: Guid(f0dab496603843845acb19dc1dfbf965) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Scenes/DemoFPSBoss.unity using Guid(f0dab496603843845acb19dc1dfbf965) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cab7ac7cafa28a7ad13c5ea08f61f0a6') in 0.015466084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000953 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/Detection_Module_Laser02_Royal_Emission.png
+  artifactKey: Guid(59f818a8dc3a83d42a2893de72aa8d1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/Detection_Module_Laser02_Royal_Emission.png using Guid(59f818a8dc3a83d42a2893de72aa8d1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '958058da30490abf6d3e0b24e0a0eb3c') in 0.05427825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/Detection_Module_Laser01_Royal_Normal.png
+  artifactKey: Guid(e9096ac8c6eea0a42812cb2b82719991) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/Detection_Module_Laser01_Royal_Normal.png using Guid(e9096ac8c6eea0a42812cb2b82719991) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73da3f4656c50e9f0d2a1215d4796b41') in 0.015928417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001715 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Prefabs/Weapon_Module_RocketLauncher_R.prefab
+  artifactKey: Guid(7408074a3164d2e42b1d498c8c9ae858) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Prefabs/Weapon_Module_RocketLauncher_R.prefab using Guid(7408074a3164d2e42b1d498c8c9ae858) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44d6055194a449862549f43d2a591377') in 0.071928292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/Navigation_Module_TwinBladeJets_Royal_MetallicSmoothness.png
+  artifactKey: Guid(2d2a745c9b51c7340b99906e0724d678) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/Navigation_Module_TwinBladeJets_Royal_MetallicSmoothness.png using Guid(2d2a745c9b51c7340b99906e0724d678) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c8a3f41061bec8e68cfb412009eeff9') in 0.016521542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Detection_Module_Laser01_Royal.mat
+  artifactKey: Guid(bdf6202936798f640bd6c070d3af74a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Detection_Module_Laser01_Royal.mat using Guid(bdf6202936798f640bd6c070d3af74a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1de5f7762aad559148961629e9dca415') in 0.0182565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002335 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Textures/Detection_Module_TV_Hurt_Albedo.png
+  artifactKey: Guid(7ffafd8ca06bcd649b223b224b1d4453) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Textures/Detection_Module_TV_Hurt_Albedo.png using Guid(7ffafd8ca06bcd649b223b224b1d4453) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fcf6deae7fe27b388dc8574e772c9b3') in 0.010236959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002212 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/Detection_Module_SpinningRadar_Royal_AlbedoTransparency.png
+  artifactKey: Guid(cdd237a701899ce41bb0aaf61e0b2628) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/Detection_Module_SpinningRadar_Royal_AlbedoTransparency.png using Guid(cdd237a701899ce41bb0aaf61e0b2628) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af3317987ea8c827cc63e7c75c861335') in 0.009359208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Enemy_Boss_Eye_Royal.mat
+  artifactKey: Guid(4018733ddb3518f409ce0d90086ec5e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Enemy_Boss_Eye_Royal.mat using Guid(4018733ddb3518f409ce0d90086ec5e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d504d00471b8927cc0555d55b5aa30c') in 0.024151833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001549 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/Detection_Module_Laser03_Royal_MetallicSmoothness.png
+  artifactKey: Guid(f56f1a5ed445f4f4f802d7af748f70ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/Detection_Module_Laser03_Royal_MetallicSmoothness.png using Guid(f56f1a5ed445f4f4f802d7af748f70ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9ea811b9eef152bdc18f7d1dc6c95bd') in 0.02362375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001201 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Navigation_Module_TwinJet_Royal.mat
+  artifactKey: Guid(8597894f99021014c927e772a271552c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Navigation_Module_TwinJet_Royal.mat using Guid(8597894f99021014c927e772a271552c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'daddc01cb494954d7a9c77a0db7fbe17') in 0.0303085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Textures/PhotonCannon_Spark.png
+  artifactKey: Guid(0d2c1774344de3e4dad5924b85192be9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Textures/PhotonCannon_Spark.png using Guid(0d2c1774344de3e4dad5924b85192be9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aac1673f643ee14e8e210816b9b9cb4a') in 0.010143708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001568 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/Navigation_Module_TwinJet_Royal_AlbedoTransparency.png
+  artifactKey: Guid(269090b3fc605c24c807ba1af5b998fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/Navigation_Module_TwinJet_Royal_AlbedoTransparency.png using Guid(269090b3fc605c24c807ba1af5b998fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a48b0c867d61e2201cca2b348b1c9a8a') in 0.007010042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.664857 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/RocektLauncher_Projectile_Royal_MetallicSmoothness.png
+  artifactKey: Guid(e76d7423dea132147aa6d49d8a99f19a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/RocektLauncher_Projectile_Royal_MetallicSmoothness.png using Guid(e76d7423dea132147aa6d49d8a99f19a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e802c19c9d7232aa00e88787b9e66861') in 0.009821667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/Weapon_Module_Railgun_Royal_MetallicSmoothness.png
+  artifactKey: Guid(6b1360019e8710f46aedeeb417c97468) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/Weapon_Module_Railgun_Royal_MetallicSmoothness.png using Guid(6b1360019e8710f46aedeeb417c97468) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '055e435211ff240f8f249be0f892bc26') in 0.029735416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001926 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/Weapon_Module_PhotonCannon_Royal_Normal.png
+  artifactKey: Guid(c2f3388b3f495f84a994b871120f71c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/Weapon_Module_PhotonCannon_Royal_Normal.png using Guid(c2f3388b3f495f84a994b871120f71c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b4552c8472160f40b0d3d10435f54c44') in 0.017253584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/AddOns/MgFPS_Quasar/Quasar_VFX/Quasar_CanisterParticle.prefab
+  artifactKey: Guid(67207f585b1ba5c4bbbe44f9c4afd084) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Quasar/Quasar_VFX/Quasar_CanisterParticle.prefab using Guid(67207f585b1ba5c4bbbe44f9c4afd084) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b21b36e0d8e5692279467c67df69c3e') in 0.045067084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002599 seconds.
+  path: Assets/AddOns/MgFPS_Fireballer/Fireballer_SFX/Fireballer_Searing_ChargeUp.wav
+  artifactKey: Guid(e876baf368760e6479c622254c37039c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Fireballer/Fireballer_SFX/Fireballer_Searing_ChargeUp.wav using Guid(e876baf368760e6479c622254c37039c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c72b521b9daa24e44c1b4585fcb5ab7') in 0.016695417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/Weapon_Module_Railgun_Royal_AlbedoTransparency.png
+  artifactKey: Guid(e18cdc4ef26317540b828c7aa5af6fb5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Textures/Weapon_Module_Railgun_Royal_AlbedoTransparency.png using Guid(e18cdc4ef26317540b828c7aa5af6fb5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df99e98101d27baa4179f8eb25defd22') in 0.010870208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/AddOns/MgFPS_RemixSFX/Enemies/FPSRmx_Hoverbot_Alert.wav
+  artifactKey: Guid(10d50e53264b459418cb2732c0a09f30) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_RemixSFX/Enemies/FPSRmx_Hoverbot_Alert.wav using Guid(10d50e53264b459418cb2732c0a09f30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37555bcb242be3bdd8b7e2dcc390d99c') in 0.042377583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/AddOns/MgFPS_RemixSFX/Weapons/FPSRmx_SniperRifle_Shot.wav
+  artifactKey: Guid(2fdc4cee6b8993f40be68a7db09f60ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_RemixSFX/Weapons/FPSRmx_SniperRifle_Shot.wav using Guid(2fdc4cee6b8993f40be68a7db09f60ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9606153a24ed4d0017ec5a4c25cff7b7') in 0.022059541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/AddOns/MgFPS_Thunderlight/Thunderlight_VFX/Thunderlight_MuzzleFlash.prefab
+  artifactKey: Guid(d0200721271c6eb499c8ff5a1f2aa966) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Thunderlight/Thunderlight_VFX/Thunderlight_MuzzleFlash.prefab using Guid(d0200721271c6eb499c8ff5a1f2aa966) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c587ab8b14d9fb444216b2f8680b113c') in 0.038837834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002313 seconds.
+  path: Assets/AddOns/MgFPS_RemixSFX/Player/FPSRmx_Damage_Tick02.wav
+  artifactKey: Guid(8c591ff330e93694fbcd108b3abd161f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_RemixSFX/Player/FPSRmx_Damage_Tick02.wav using Guid(8c591ff330e93694fbcd108b3abd161f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2fa2bb44337600710fe6aed442547efc') in 0.020221833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/AddOns/MgFPS_RemixSFX/Player/FPSRmx_Footstep01.wav
+  artifactKey: Guid(03a1065e27953f148b89a36f7078563e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_RemixSFX/Player/FPSRmx_Footstep01.wav using Guid(03a1065e27953f148b89a36f7078563e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98a1b65d69e5a37033324b056684af11') in 0.025598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/AddOns/MgFPS_Molt/Molt_Animation/Weapon_Molt.controller
+  artifactKey: Guid(e54ef79460cd1034697304009eb877d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Molt/Molt_Animation/Weapon_Molt.controller using Guid(e54ef79460cd1034697304009eb877d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b94c84568bbf633a1331d751b809827') in 0.018032666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AddOns/MgFPS_PlasmaRain/PlasmaRain_SFX/Weapons_PlasmaRain_ChargeUp.wav
+  artifactKey: Guid(b3d44d999f619124e8420d1f3f36fb23) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_PlasmaRain/PlasmaRain_SFX/Weapons_PlasmaRain_ChargeUp.wav using Guid(b3d44d999f619124e8420d1f3f36fb23) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '322190b67aba6d554c6117ffed5aa870') in 0.013396917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/AddOns/MgFPS_Quasar/Quasar_VFX/Quasar_Bolt.prefab
+  artifactKey: Guid(43206ac45e9b24945bd0d4f46113077e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Quasar/Quasar_VFX/Quasar_Bolt.prefab using Guid(43206ac45e9b24945bd0d4f46113077e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '517856d241a755cb59ebb3ff6a5808ba') in 0.008012125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/AddOns/MgFPS_PlasmaRain/PlasmaRainMeshAndTextures/PlasmaRain_Emission.png
+  artifactKey: Guid(f29ea2941a0a1f54aa23168ad54b49ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_PlasmaRain/PlasmaRainMeshAndTextures/PlasmaRain_Emission.png using Guid(f29ea2941a0a1f54aa23168ad54b49ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '035f4894215920a2f00f04c3eb1b1978') in 0.007158375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000705 seconds.
+  path: Assets/AddOns/MgFPS_Quasar/Quasar_VFX/Quasar_DiscOrbitParticles.prefab
+  artifactKey: Guid(76714d08c2dd77a4d86fb98af60f6a31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Quasar/Quasar_VFX/Quasar_DiscOrbitParticles.prefab using Guid(76714d08c2dd77a4d86fb98af60f6a31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b42182daf465ef7ed7498be9dd709c41') in 0.029756459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/AddOns/MgFPS_PlasmaRain/PlasmaRainMeshAndTextures/Projectile_PlasmaRain.fbx
+  artifactKey: Guid(8f479d4ab4c4a1d48b20d2228f5d6584) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_PlasmaRain/PlasmaRainMeshAndTextures/Projectile_PlasmaRain.fbx using Guid(8f479d4ab4c4a1d48b20d2228f5d6584) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97b562b1f1f665ed3c2bce04fd03f540') in 0.011554291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/AddOns/MgFPS_Thunderlight/Thunderlight_VFX/Thunderlight_BlobSparks.prefab
+  artifactKey: Guid(81aa945dcafaa414a994715de3260ae9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Thunderlight/Thunderlight_VFX/Thunderlight_BlobSparks.prefab using Guid(81aa945dcafaa414a994715de3260ae9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77d459e11b383db402f8a97382e3cc51') in 0.037318041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/AddOns/Mg_Scifi_Music/Mixers&Tracks/KickDrumOnly.ogg
+  artifactKey: Guid(d1a11dc1d26438e4eaa9efdefab49adc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/Mg_Scifi_Music/Mixers&Tracks/KickDrumOnly.ogg using Guid(d1a11dc1d26438e4eaa9efdefab49adc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '390777dfcef980bbd44cfb4635684c76') in 0.070194542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000579 seconds.
+  path: Assets/AddOns/MgFPS_PlasmaRain/PlasmaRainMeshAndTextures/PlasmaRain_MaskMap.png
+  artifactKey: Guid(c086848c3db39fe4ca31b4bf75c6a0d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_PlasmaRain/PlasmaRainMeshAndTextures/PlasmaRain_MaskMap.png using Guid(c086848c3db39fe4ca31b4bf75c6a0d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf2f0e46b7eae1e23d858e3f54b75cce') in 0.008478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001180 seconds.
+  path: Assets/AddOns/MgFPS_PlasmaRain/PlasmaRainMeshAndTextures/Weapon_PlasmaRain.fbx
+  artifactKey: Guid(6bf5012e15ae2484fbb163e0908761e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_PlasmaRain/PlasmaRainMeshAndTextures/Weapon_PlasmaRain.fbx using Guid(6bf5012e15ae2484fbb163e0908761e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd532a021c10a415d04afba97a0993f4e') in 0.013210667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001455 seconds.
+  path: Assets/AddOns/MgFPS_Molt/Molt_VFX/VFX_MagicImpact_Molt.prefab
+  artifactKey: Guid(7a7ca62a76a20fc40bb8d6d6d4d91edb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Molt/Molt_VFX/VFX_MagicImpact_Molt.prefab using Guid(7a7ca62a76a20fc40bb8d6d6d4d91edb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4959530c6d3750253f774203d413fb1') in 0.026759625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/AddOns/MgFPS_Haku/Haku_SFX/Haku_ReloadPart2.ogg
+  artifactKey: Guid(ce53a4e414193284c94e7e5036f64a9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Haku/Haku_SFX/Haku_ReloadPart2.ogg using Guid(ce53a4e414193284c94e7e5036f64a9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e5146572a4b6f915de6a0e579f1d727') in 0.027743167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002455 seconds.
+  path: Assets/AddOns/MgFPS_Fireballer/Fireballer_SFX/Fireballer_End.wav
+  artifactKey: Guid(732235b1c50703941b9f15061d5b1326) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Fireballer/Fireballer_SFX/Fireballer_End.wav using Guid(732235b1c50703941b9f15061d5b1326) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76041f53aa8421d6d6b477dfd72361ad') in 0.016187459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.271723 seconds.
+  path: Assets/AddOns/Mg_Scifi_Music/Mixers&Tracks/Piano.ogg
+  artifactKey: Guid(243a002484d081a4e9faa5394af6b47c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/Mg_Scifi_Music/Mixers&Tracks/Piano.ogg using Guid(243a002484d081a4e9faa5394af6b47c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1185b3a941c6abdc03cb4b66e2a7d9a') in 0.100928083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/CodeMonkey/KeyDoorSystem/Objects/KeyPrefabBlue.prefab
+  artifactKey: Guid(153b48c1a8887d44ab10780bec4533d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CodeMonkey/KeyDoorSystem/Objects/KeyPrefabBlue.prefab using Guid(153b48c1a8887d44ab10780bec4533d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e406b337cfd58f8217ad25de64838d63') in 0.012635291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/FPS/Animation/Rigs/HoverBot.fbx
+  artifactKey: Guid(8e64c7aa328349d4ea713298f19a414f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Animation/Rigs/HoverBot.fbx using Guid(8e64c7aa328349d4ea713298f19a414f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '95acf6691465079ae319fb912c5b004b') in 0.023484333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/FPS/Prefabs/RootObjects/OBJRamp_8m.obj
+  artifactKey: Guid(b13f5faa09e1e184290877278ca51839) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/RootObjects/OBJRamp_8m.obj using Guid(b13f5faa09e1e184290877278ca51839) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3275045bd0b93b57e21df7c213edd21e') in 0.007434959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FPS/Prefabs/UI/AmmoCounter.prefab
+  artifactKey: Guid(381e109c8e235f54cbcfbe7434554e49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/UI/AmmoCounter.prefab using Guid(381e109c8e235f54cbcfbe7434554e49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e0c6cdcba0ec90a4dccf5b65e702d33') in 0.031644709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006744 seconds.
+  path: Assets/CodeMonkey/KeyDoorSystem/Objects/DoorSingleSide.prefab
+  artifactKey: Guid(064259b0d2b7a394fb15f88197f3e02a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CodeMonkey/KeyDoorSystem/Objects/DoorSingleSide.prefab using Guid(064259b0d2b7a394fb15f88197f3e02a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c92735c4f15a7bcbe5a7ec03b919ecd1') in 0.031712916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/CodeMonkey/KeyDoorSystem/Objects/DoorKeyUISingle.prefab
+  artifactKey: Guid(345158a61f7bd59439499b771dd9ee0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CodeMonkey/KeyDoorSystem/Objects/DoorKeyUISingle.prefab using Guid(345158a61f7bd59439499b771dd9ee0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5cf6e6b105179b01b97cc44ee8a680c1') in 0.0111195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/AddOns/Mg_Scifi_Music/Mixers&Tracks/ZapSFX.ogg
+  artifactKey: Guid(f25d711f2b27104468a6bf82cbbd0797) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/Mg_Scifi_Music/Mixers&Tracks/ZapSFX.ogg using Guid(f25d711f2b27104468a6bf82cbbd0797) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06d81d4ae79c8121f9083224d99923b0') in 0.075830083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FPS/Prefabs/RootObjects/Altar.mtl
+  artifactKey: Guid(ffbd29ad2bba3994a866553cda74f5f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/RootObjects/Altar.mtl using Guid(ffbd29ad2bba3994a866553cda74f5f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b15707cdbad6db4b45f5b4171dbc7792') in 0.001505834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/FPS/Animation/HoverBot/HoverBot@IdleClosed.fbx
+  artifactKey: Guid(66088e9cde32b5344b49394a051595d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Animation/HoverBot/HoverBot@IdleClosed.fbx using Guid(66088e9cde32b5344b49394a051595d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c36b834e2c3b0939296bb8564119872') in 0.019535916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/FPS/Prefabs/Projectiles/Projectile_Disc.prefab
+  artifactKey: Guid(0e23901b938cf4f4eb86850d912715eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/Projectiles/Projectile_Disc.prefab using Guid(0e23901b938cf4f4eb86850d912715eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f948ecf597cddf7daa330cc963568f0') in 0.022201541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002076 seconds.
+  path: Assets/FPS/Prefabs/RootObjects/Wall_4m.mtl
+  artifactKey: Guid(8592508b5cee0bf45b37390f7d26fc25) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/RootObjects/Wall_4m.mtl using Guid(8592508b5cee0bf45b37390f7d26fc25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b2d9ab16eb3d8229bc65163b057a584') in 0.001991583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/CodeMonkey/KeyDoorSystem/Readme/CodeMonkeyHeader.png
+  artifactKey: Guid(6897b755563163f45b4301de2234a452) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CodeMonkey/KeyDoorSystem/Readme/CodeMonkeyHeader.png using Guid(6897b755563163f45b4301de2234a452) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db8ded00890d6119694df204bf5589ac') in 0.014732709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/FPS/Prefabs/UI/GameHUD.prefab
+  artifactKey: Guid(7ff14361843237d43afc85e1cb16e295) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/UI/GameHUD.prefab using Guid(7ff14361843237d43afc85e1cb16e295) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'abcb5141cf728cb3b8acbe8493ffa929') in 0.076875833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 343
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/FPS/Art/Materials/SpeedLine.mat
+  artifactKey: Guid(51b4b159ffad18a408fe75b6f8ccbc2f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Materials/SpeedLine.mat using Guid(51b4b159ffad18a408fe75b6f8ccbc2f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da002faeafc87e961537e4d1008e80fa') in 0.007373667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AddOns/Mg_Scifi_Music/Mixes/SFMix_AllTracks.ogg
+  artifactKey: Guid(dfd3574752c332246b1307e548a740f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/Mg_Scifi_Music/Mixes/SFMix_AllTracks.ogg using Guid(dfd3574752c332246b1307e548a740f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c4310024ec80ae1f6613190108010c2') in 0.91732125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/FPS/Scripts/AI/PatrolPath.cs
+  artifactKey: Guid(2ec2f49cb5488d0459ff53ecc714acb7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Scripts/AI/PatrolPath.cs using Guid(2ec2f49cb5488d0459ff53ecc714acb7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '911cb9a7cab3c8a178fa2663fa8cfa9e') in 0.002189416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000789 seconds.
+  path: Assets/FPS/Scripts/Game/MeshCombiner.cs
+  artifactKey: Guid(eec9f03de17857a48ac47c6ae8577551) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Scripts/Game/MeshCombiner.cs using Guid(eec9f03de17857a48ac47c6ae8577551) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b909ad72d55459eacf8141827d5aa0f9') in 0.005983083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000668 seconds.
+  path: Assets/FPS/Scripts/Gameplay/Jetpack.cs
+  artifactKey: Guid(48f22a420493bcf4a8ca3e259797484f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Scripts/Gameplay/Jetpack.cs using Guid(48f22a420493bcf4a8ca3e259797484f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ca061fe1ef236c1447bf7a0f6a3e606') in 0.003564708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001296 seconds.
+  path: Assets/FPS/Scripts/AI/EnemyTurret.cs
+  artifactKey: Guid(a4cb5371dba09ee46806cbe0c2aa2c9c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Scripts/AI/EnemyTurret.cs using Guid(a4cb5371dba09ee46806cbe0c2aa2c9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'daca51bf7abef57792e0a10f6e392118') in 0.017448792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/FPS/Prefabs/VFX/VFX_Angry.prefab
+  artifactKey: Guid(201cf67a1fffda346bf368bb1008d260) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/VFX/VFX_Angry.prefab using Guid(201cf67a1fffda346bf368bb1008d260) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9bbbade455cbc3817ffe37a047b79ab') in 0.034642541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/FPS/Scripts/UI/ObjectiveToast.cs
+  artifactKey: Guid(0511a19aa4a23374180039b212baa206) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Scripts/UI/ObjectiveToast.cs using Guid(0511a19aa4a23374180039b212baa206) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d3244b8598e4eff4b9e8a22b76ff9c2') in 0.004422084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010542 seconds.
+  path: Assets/FPS/Scripts/Game/Events.cs
+  artifactKey: Guid(b1ebb8b94dd6b9f4292a7a4a2996fed1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Scripts/Game/Events.cs using Guid(b1ebb8b94dd6b9f4292a7a4a2996fed1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3386e1f8683c1c60d840a755a252bb5d') in 0.003303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/FPS/Scripts/Editor/PrefabReplacerEditor.cs
+  artifactKey: Guid(1a6c78584504d3a4ebb6211df75433d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Scripts/Editor/PrefabReplacerEditor.cs using Guid(1a6c78584504d3a4ebb6211df75433d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '948b7442c4afb2156e634b706eb12c73') in 0.002445375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006834 seconds.
+  path: Assets/FPS/Scenes/MainScene/NavMesh-NavMeshSurface 3.asset
+  artifactKey: Guid(015a2e17ea71c42f88a867caaa47823d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Scenes/MainScene/NavMesh-NavMeshSurface 3.asset using Guid(015a2e17ea71c42f88a867caaa47823d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e805b84b638033a9e16965fd89f0f6e') in 0.005181917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003517 seconds.
+  path: Assets/FPS/Prefabs/VFX/VFX_AngrySteamTurret.prefab
+  artifactKey: Guid(80a1c11596afc5b4e99fcd0cc136f3ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/VFX/VFX_AngrySteamTurret.prefab using Guid(80a1c11596afc5b4e99fcd0cc136f3ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '321b12c0d09a52035967cde3a8ed4126') in 0.045683875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000721 seconds.
+  path: Assets/FPS/Scripts/Gameplay/TeleportPlayer.cs
+  artifactKey: Guid(3a304a5233f1c3646ad5342015726b1d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Scripts/Gameplay/TeleportPlayer.cs using Guid(3a304a5233f1c3646ad5342015726b1d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2f083519a8efe5efe0ce8b6b8404174') in 0.001981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000669 seconds.
+  path: Assets/FPS/Prefabs/Weapons/Weapon_Shotgun.prefab
+  artifactKey: Guid(31d97e822763d1f4cb769f7e3f7f7333) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/Weapons/Weapon_Shotgun.prefab using Guid(31d97e822763d1f4cb769f7e3f7f7333) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4676150125f09a7124c43315a649a938') in 0.042432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/FPS/Prefabs/Pickups/Pickup_Launcher.prefab
+  artifactKey: Guid(a7fa348d53593bb42922672c6cf40651) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/Pickups/Pickup_Launcher.prefab using Guid(a7fa348d53593bb42922672c6cf40651) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99cb601b7cf2c3ba6fcd65d34ef0e675') in 0.048645583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 160
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/FPS/Art/Models/Mesh_Jetpack.fbx
+  artifactKey: Guid(8a8f77597c6be5e429a0dde1309ab87d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Models/Mesh_Jetpack.fbx using Guid(8a8f77597c6be5e429a0dde1309ab87d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09f469f8a4de4f9c2aa9a97206ca99f1') in 0.012100417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/FPS/Animation/Turret/Turret@AttackOut.fbx
+  artifactKey: Guid(a43aac245dca8ed4da27d100a5b9e5a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Animation/Turret/Turret@AttackOut.fbx using Guid(a43aac245dca8ed4da27d100a5b9e5a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'feea55fd6ff31aa73689392b24b71cfe') in 0.027323709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/FPS/Scripts/AI/NavigationModule.cs
+  artifactKey: Guid(22d6b672a3f9d27468cfdd79b2119c7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Scripts/AI/NavigationModule.cs using Guid(22d6b672a3f9d27468cfdd79b2119c7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '250a3802a5c1739100007273d8cb171a') in 0.002326708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/FPS/Scripts/Gameplay/ChargedWeaponEffectsHandler.cs
+  artifactKey: Guid(b92ab16a4151e294a9e6f5a025221be2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Scripts/Gameplay/ChargedWeaponEffectsHandler.cs using Guid(b92ab16a4151e294a9e6f5a025221be2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57868d518f95b5af42a1f112d1b5c7aa') in 0.004859333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/ModAssets/Materials/Totems/M_StatueWall.mat
+  artifactKey: Guid(754ea6a657fbb274b8ce464f04329736) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ModAssets/Materials/Totems/M_StatueWall.mat using Guid(754ea6a657fbb274b8ce464f04329736) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2cbeefa23ac6d0aaeb38f4e2b1c78cd1') in 0.007477459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Animations/Animation/Enemy_Boss@Alerted.fbx
+  artifactKey: Guid(05661a92af4f30b40bdcb980448358c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Animations/Animation/Enemy_Boss@Alerted.fbx using Guid(05661a92af4f30b40bdcb980448358c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b0d7736ea3f2faa53737f4b9cfdb168') in 0.009579166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001553 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Animations/Animation/Detection_Module@Laser02_R.fbx
+  artifactKey: Guid(869013d181027b2468ee2cdad80444f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Animations/Animation/Detection_Module@Laser02_R.fbx using Guid(869013d181027b2468ee2cdad80444f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '572ebea24b729b6ec87cd68fb429d481') in 0.009886708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/ModAssets/Models/Weapons/Mesh_Weapon_2.fbx
+  artifactKey: Guid(316b9a4e4c2b0aa4db7f626da3f6774b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ModAssets/Models/Weapons/Mesh_Weapon_2.fbx using Guid(316b9a4e4c2b0aa4db7f626da3f6774b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2fd7e03b30b4b34e2ab3932233eac56') in 0.009430167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001648 seconds.
+  path: Assets/AddOns/MgFPS_Aurous/Aurous_VFX/Materials/Boom_Aurous.mat
+  artifactKey: Guid(90e4a0ad49fa15342a28ad3c02db26ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Aurous/Aurous_VFX/Materials/Boom_Aurous.mat using Guid(90e4a0ad49fa15342a28ad3c02db26ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3d12fb877b9a7fa5f9d8e294f09ce78') in 0.008545667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AddOns/MgFPS_Aurous/AurousMeshandTextures/Materials/Aurous.mat
+  artifactKey: Guid(c6fc44d18442fad4ab2e2ac91a79780d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Aurous/AurousMeshandTextures/Materials/Aurous.mat using Guid(c6fc44d18442fad4ab2e2ac91a79780d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b57193437aa1f27bf9426dd21c175ed4') in 0.030211083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/ModAssets/Models/FoodProps/GummyBear.fbx
+  artifactKey: Guid(58ea00b8d25e246b4aabc659dc7b33c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ModAssets/Models/FoodProps/GummyBear.fbx using Guid(58ea00b8d25e246b4aabc659dc7b33c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a62fced1196e44348ece3053a9396fcd') in 0.013686875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000726 seconds.
+  path: Assets/AddOns/MgFPS_Aurous/Aurous_VFX/Textures/Spark_Aurous.png
+  artifactKey: Guid(652982bbc16267748b2096fb87ff29e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Aurous/Aurous_VFX/Textures/Spark_Aurous.png using Guid(652982bbc16267748b2096fb87ff29e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'edeb2e250f87a917b2d1c3c9d8d35c5a') in 0.007453958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84950ce07002c8a5e023ae6c58c5ddf1') in 0.006002584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/ModAssets/Materials/TrailMaterials/LongTrailMaterial.mat
+  artifactKey: Guid(dbd73125b5e3c429ea6c920ebcc9dd92) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ModAssets/Materials/TrailMaterials/LongTrailMaterial.mat using Guid(dbd73125b5e3c429ea6c920ebcc9dd92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f0be15d31de3c2acb8303ab85952c96') in 0.005089084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Animations/Animation/Weapon_Module@SpinningRadar_R_Hurt.fbx
+  artifactKey: Guid(3fdbf73ffbbdf044ab2bef4deda89a9e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Animations/Animation/Weapon_Module@SpinningRadar_R_Hurt.fbx using Guid(3fdbf73ffbbdf044ab2bef4deda89a9e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa6406521fdd58d0d8eb688e9551747a') in 0.011983416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Animations/Animation/Detection_Module@SpinningRadar_R.fbx
+  artifactKey: Guid(2dbd7f8a51d913645be8310cc7b59526) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Animations/Animation/Detection_Module@SpinningRadar_R.fbx using Guid(2dbd7f8a51d913645be8310cc7b59526) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8181239be6014734681eae5b67444d84') in 0.007601333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/FPS/Tutorials/Playtest/WT-Select-Gameobject.mov
+  artifactKey: Guid(79dadb0d7a0c143db8700a2c64e462c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Tutorials/Playtest/WT-Select-Gameobject.mov using Guid(79dadb0d7a0c143db8700a2c64e462c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09acc01225e1dab3776b1d784298d79f') in 0.003816459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000784 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Animations/Animation/Enemy_Boss@Attack.fbx
+  artifactKey: Guid(2a3cedeebeaf3f84e8e832092ba143b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Animations/Animation/Enemy_Boss@Attack.fbx using Guid(2a3cedeebeaf3f84e8e832092ba143b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce51f69b63d205ec3ca56c111309a6e8') in 0.009306791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002751 seconds.
+  path: Assets/ModAssets/Models/AncientProps/Pillar.fbx
+  artifactKey: Guid(7c49e12debb73554780638b4c35f023d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ModAssets/Models/AncientProps/Pillar.fbx using Guid(7c49e12debb73554780638b4c35f023d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44f3ce64260f3ab25a6bea09ea19750b') in 0.022502417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002759 seconds.
+  path: Assets/ModAssets/Prefabs/Totems/Statue_Wall.prefab
+  artifactKey: Guid(edeaf041d2df0314eb55e3bf76b1b3a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ModAssets/Prefabs/Totems/Statue_Wall.prefab using Guid(edeaf041d2df0314eb55e3bf76b1b3a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46482dceaacdfa2b0cf8a6b861222367') in 0.008875334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/ModAssets/Materials/HatMaterials/PartyHatMaterial.mat
+  artifactKey: Guid(bdf0bf742eef44db49906f57d30ad905) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ModAssets/Materials/HatMaterials/PartyHatMaterial.mat using Guid(bdf0bf742eef44db49906f57d30ad905) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6884059be4f3dc431f9108aeb1655ca4') in 0.002968167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000818 seconds.
+  path: Assets/ModAssets/Models/HatMeshes/PartyHatMesh.fbx
+  artifactKey: Guid(34a2d77e69c9248c09fea2bd77090468) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ModAssets/Models/HatMeshes/PartyHatMesh.fbx using Guid(34a2d77e69c9248c09fea2bd77090468) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '62b03b8c811caa3fcebc5b68d86f6689') in 0.01110525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000591 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Animations/Animation/Weapon_Module@Searchlight_L_Hurt.fbx
+  artifactKey: Guid(c775e5284d585fa4f9843c48e6675a7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Animations/Animation/Weapon_Module@Searchlight_L_Hurt.fbx using Guid(c775e5284d585fa4f9843c48e6675a7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0465d724267507e200aa4f0916d0f67') in 0.011985417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/ModAssets/Models/Totems/Mesh_Statue_Big.fbx
+  artifactKey: Guid(63ace06a8644566418ef2ce0a8da2a73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ModAssets/Models/Totems/Mesh_Statue_Big.fbx using Guid(63ace06a8644566418ef2ce0a8da2a73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '839e961ad4f18ca2a7bad886fe02a696') in 0.008804417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000865 seconds.
+  path: Assets/AddOns/MgFPS_Aurous/AurousMeshandTextures/Textures/HUD_Aurous.png
+  artifactKey: Guid(b593f2da3a01d46469217f2da4a0d0ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Aurous/AurousMeshandTextures/Textures/HUD_Aurous.png using Guid(b593f2da3a01d46469217f2da4a0d0ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b2a937459f7dfacb87050594031216c') in 0.013079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/FPS/Tutorials/Playtest/08-Play-New-Speed.asset
+  artifactKey: Guid(e5075e49e79114a2483ea78deb603d8c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Tutorials/Playtest/08-Play-New-Speed.asset using Guid(e5075e49e79114a2483ea78deb603d8c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f27b241af9730699a2b0878889b19ca2') in 0.007284167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000606 seconds.
+  path: Assets/ModAssets/Models/NatureProps/PalmTree.fbx
+  artifactKey: Guid(ae36130ee9b994114b35ece84c158fdc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ModAssets/Models/NatureProps/PalmTree.fbx using Guid(ae36130ee9b994114b35ece84c158fdc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92ce530b0c654cfaeb706228c61925aa') in 0.010195542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001992 seconds.
+  path: Assets/ModAssets/Materials/BillboardMaterials/Billboard Frame.mat
+  artifactKey: Guid(190c04ee61aaa410e8650f7fc1ce7f41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ModAssets/Materials/BillboardMaterials/Billboard Frame.mat using Guid(190c04ee61aaa410e8650f7fc1ce7f41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08819e694404d72fbd26500acce7e736') in 0.002817166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001103 seconds.
+  path: Assets/ModAssets/Models/NatureProps/FallenTree.fbx
+  artifactKey: Guid(eaf3edd0ef88ac84c970b62f673ed6b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ModAssets/Models/NatureProps/FallenTree.fbx using Guid(eaf3edd0ef88ac84c970b62f673ed6b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db1efe573bfd7c097f6d5ff74fe37c5d') in 0.022776625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Animations/Animation/Detection_Module@SpinningRadar_L.fbx
+  artifactKey: Guid(592bbcf21ad293b4ea5cdb9e6bf6d4d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Animations/Animation/Detection_Module@SpinningRadar_L.fbx using Guid(592bbcf21ad293b4ea5cdb9e6bf6d4d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae7c87bccf7caac3dc27b02d4c650c4c') in 0.010248334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/FPS/Scripts/Game/TimedSelfDestruct.cs
+  artifactKey: Guid(09df4c6380233d34397a4a7506903302) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Scripts/Game/TimedSelfDestruct.cs using Guid(09df4c6380233d34397a4a7506903302) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '104f9fd56c641d7c188f54664cf67b34') in 0.002150334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000627 seconds.
+  path: Assets/ModAssets/Models/SpaceProps/SatelliteDish.fbx
+  artifactKey: Guid(1b5c4d63f30c047a6b5e593599a27c13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ModAssets/Models/SpaceProps/SatelliteDish.fbx using Guid(1b5c4d63f30c047a6b5e593599a27c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae0ab478ebbc7b5e57640eac1645ce3c') in 0.007832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/FPS/Prefabs/Weapons/Weapon_Blaster.prefab
+  artifactKey: Guid(b318fabc73446b746a1005cede0c4ceb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/Weapons/Weapon_Blaster.prefab using Guid(b318fabc73446b746a1005cede0c4ceb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb6267f0cc67feafc52c886f32ab20e2') in 0.0363395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 109
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000627 seconds.
+  path: Assets/ModAssets/Prefabs/BillboardPrefabs/BillboardBasic.prefab
+  artifactKey: Guid(441945e8a4aa644b3ac6600c6712f79c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ModAssets/Prefabs/BillboardPrefabs/BillboardBasic.prefab using Guid(441945e8a4aa644b3ac6600c6712f79c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16dc35a7a66654aa9c7a5fa84eb9cbe8') in 0.007489333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000809 seconds.
+  path: Assets/FPS/Scripts/UI/InGameMenuManager.cs
+  artifactKey: Guid(18998fe37a74de64d861e190ab499e45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Scripts/UI/InGameMenuManager.cs using Guid(18998fe37a74de64d861e190ab499e45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5146b4e0e760921a978bc66fbafcb7b') in 0.004103709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000905 seconds.
+  path: Assets/ModAssets/Models/FoodProps/Lollipop.fbx
+  artifactKey: Guid(4ae0a8e21fe944960ae7238feeda49f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ModAssets/Models/FoodProps/Lollipop.fbx using Guid(4ae0a8e21fe944960ae7238feeda49f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d7672e577a1ded10d299dd1103794f0') in 0.0226625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000730 seconds.
+  path: Assets/FPS/Prefabs/VFX/VFX_DiskOrbitParticles.prefab
+  artifactKey: Guid(b9cf7bff98404174d83a37d58c543aa5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/VFX/VFX_DiskOrbitParticles.prefab using Guid(b9cf7bff98404174d83a37d58c543aa5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4abc73bb5cd0f774e7db44a32929105') in 0.030372084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001720 seconds.
+  path: Assets/AddOns/MgFPS_Molt/MoltMeshandTextures/Textures/HUD_Molt.png
+  artifactKey: Guid(7ceebf56919e3ec4e8965947888b5b63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Molt/MoltMeshandTextures/Textures/HUD_Molt.png using Guid(7ceebf56919e3ec4e8965947888b5b63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4120a40ef0e4eea4be5ffc6c22c79bec') in 0.007935959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002169 seconds.
+  path: Assets/AddOns/MgFPS_Molt/Molt_VFX/Textures/MoltTexture.png
+  artifactKey: Guid(0f0ef644735735041946b865a408c818) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Molt/Molt_VFX/Textures/MoltTexture.png using Guid(0f0ef644735735041946b865a408c818) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1e7f66a862552b1f71eec0910efde1c') in 0.008670792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/AddOns/MgFPS_Quasar/Quasar_MeshAndTexture/Textures/Quasar_Main_AlbedoTransparency.png
+  artifactKey: Guid(d5f9c4dc2896a1f4ca5c935232c13c34) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Quasar/Quasar_MeshAndTexture/Textures/Quasar_Main_AlbedoTransparency.png using Guid(d5f9c4dc2896a1f4ca5c935232c13c34) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '782323614adf2178c5d10388ec9f7a35') in 0.01637725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007719 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Animations/Controllers/Searchlight_R_AnimationController.controller
+  artifactKey: Guid(19c46e56e10dd8941ae95362b4e95c93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Animations/Controllers/Searchlight_R_AnimationController.controller using Guid(19c46e56e10dd8941ae95362b4e95c93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dfb8c9a9f5d77463d88c06163296b13f') in 0.003131334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002465 seconds.
+  path: Assets/AddOns/MgFPS_Thunderlight/Thunderlight_VFX/Materials/Magic_Star.mat
+  artifactKey: Guid(9ad2adcfa5c806f43857e329cf7e4a5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Thunderlight/Thunderlight_VFX/Materials/Magic_Star.mat using Guid(9ad2adcfa5c806f43857e329cf7e4a5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2a6e84c098f766636f1adf4ed098686') in 0.0046525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000724 seconds.
+  path: Assets/FPS/Art/Materials/Props/Jetpack.mat
+  artifactKey: Guid(2163f1532b18af3478e39475952f1ae7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Materials/Props/Jetpack.mat using Guid(2163f1532b18af3478e39475952f1ae7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d0fd06c7f3d01df63ad0240926a2c5b') in 0.006881917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Animations/Controllers/PhotonCannon_R_AnimationController.controller
+  artifactKey: Guid(7c16ab7b7c2170946ad74f209e9f4eeb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Animations/Controllers/PhotonCannon_R_AnimationController.controller using Guid(7c16ab7b7c2170946ad74f209e9f4eeb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05a3cdeea74989d0d8d89426fa85b8f8') in 0.002753542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/CodeMonkey/KeyDoorSystem/Readme/Editor/CodeMonkey_KeyDoorSystem_Editor.asmdef
+  artifactKey: Guid(76d895b328ffcae4dafcb16678830290) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CodeMonkey/KeyDoorSystem/Readme/Editor/CodeMonkey_KeyDoorSystem_Editor.asmdef using Guid(76d895b328ffcae4dafcb16678830290) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9584bc2c5d4199617857d3bf8b8bf794') in 0.007173958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002704 seconds.
+  path: Assets/AddOns/MgFPS_Fireballer/Fireballer_VFX/Materials/SmokeTexture.mat
+  artifactKey: Guid(4641b24e9c456444488c035a1073660e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Fireballer/Fireballer_VFX/Materials/SmokeTexture.mat using Guid(4641b24e9c456444488c035a1073660e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1eb18267c33cc3b37e3350b573828e1c') in 0.006031041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000927 seconds.
+  path: Assets/AddOns/MgFPS_Molt/MoltMeshandTextures/Textures/Molt_BaseColor.png
+  artifactKey: Guid(253b7f5e542ab1e4db05dd706142aabc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Molt/MoltMeshandTextures/Textures/Molt_BaseColor.png using Guid(253b7f5e542ab1e4db05dd706142aabc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce7f0fa3572ed703a6c7e96d6f7673e5') in 0.0275095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000824 seconds.
+  path: Assets/AddOns/MgFPS_Thunderlight/Thunderlight_MeshandTextures/Textures/HUD_Thunderlight.png
+  artifactKey: Guid(63ed2fe06f883a04f8de664a41a209c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Thunderlight/Thunderlight_MeshandTextures/Textures/HUD_Thunderlight.png using Guid(63ed2fe06f883a04f8de664a41a209c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7cbdc156c0f1f58bbcb1093481825068') in 0.005939167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003943 seconds.
+  path: Assets/AddOns/MgFPS_Molt/Molt_VFX/Textures/MoltMagic_Flash.png
+  artifactKey: Guid(34bb9c0f91c9ce641afd78c6b7b052f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Molt/Molt_VFX/Textures/MoltMagic_Flash.png using Guid(34bb9c0f91c9ce641afd78c6b7b052f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c55a9aeabfc2c8601c3f6c2301e0fb27') in 0.006498666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/AddOns/MgFPS_Thunderlight/Thunderlight_VFX/Materials/Smoke.mat
+  artifactKey: Guid(6d347e89533a0274884ca0c0a1423bc6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Thunderlight/Thunderlight_VFX/Materials/Smoke.mat using Guid(6d347e89533a0274884ca0c0a1423bc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08f7167cfd47b9e07f47e686955bb561') in 0.004276917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/AddOns/MgFPS_Molt/Molt_VFX/Materials/MoltAdditive.mat
+  artifactKey: Guid(dc6e18d075e239b4a91c2b0ad8e67bfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Molt/Molt_VFX/Materials/MoltAdditive.mat using Guid(dc6e18d075e239b4a91c2b0ad8e67bfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '90f074a193568937f8af39086b478404') in 0.006772709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/AddOns/MgFPS_Vaporizer/VaporizerMeshAndTexture/Textures/Vaporizer_Normal.png
+  artifactKey: Guid(d5ed62d385654544fac22db3fd95d13f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Vaporizer/VaporizerMeshAndTexture/Textures/Vaporizer_Normal.png using Guid(d5ed62d385654544fac22db3fd95d13f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37b0c8c1b707a442906f427f127f06c7') in 0.018227458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Animations/Controllers/Laser02_R_AnimationController.controller
+  artifactKey: Guid(65179c49b6e2fc44bbbb5b8a29e3de36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Animations/Controllers/Laser02_R_AnimationController.controller using Guid(65179c49b6e2fc44bbbb5b8a29e3de36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27d1f4f35784ff212b8e562d4d432e70') in 0.006194875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000833 seconds.
+  path: Assets/AddOns/MgFPS_Quasar/Quasar_VFX/Materials/Quasar_DistortedCircle.mat
+  artifactKey: Guid(c96c3b955e6c27c4ea50522cec3d7c9e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Quasar/Quasar_VFX/Materials/Quasar_DistortedCircle.mat using Guid(c96c3b955e6c27c4ea50522cec3d7c9e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '983e9a6a2fe4d5a56fc6b79290679a21') in 0.005225167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/FPS/Art/Materials/VFX/DiskSpinning.mat
+  artifactKey: Guid(968af284edcef924bb56ad46d60123e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Materials/VFX/DiskSpinning.mat using Guid(968af284edcef924bb56ad46d60123e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a53e5d64b519de33e4fe362a225c313a') in 0.002866917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001627 seconds.
+  path: Assets/AddOns/MgFPS_Vaporizer/VaporizerMeshAndTexture/Models/Vaporizer.fbx
+  artifactKey: Guid(3267f7b5551c1e5458a78f57f687432c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Vaporizer/VaporizerMeshAndTexture/Models/Vaporizer.fbx using Guid(3267f7b5551c1e5458a78f57f687432c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3857421f5dbf3cc0e6602bb4eb0eb358') in 0.009195833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/AddOns/MgFPS_Haku/Haku_VFX/Models/Haku_Muzzleflash.fbx
+  artifactKey: Guid(2f04c61ed6522d449b98fb68e4082262) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Haku/Haku_VFX/Models/Haku_Muzzleflash.fbx using Guid(2f04c61ed6522d449b98fb68e4082262) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eccc7302ed7e7f1038f94d0fa001650b') in 0.007522959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/FPS/Art/Materials/VFX/DiskExplosion.mat
+  artifactKey: Guid(133346923945d9f4db816ec7db12fd03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Materials/VFX/DiskExplosion.mat using Guid(133346923945d9f4db816ec7db12fd03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c03cb904c26e54f182821c6dc80b48c1') in 0.003115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001145 seconds.
+  path: Assets/AddOns/MgFPS_Molt/Molt_VFX/Materials/MoltTrailAdditive.mat
+  artifactKey: Guid(171307e20eda5c34d9c1428102dbe4d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Molt/Molt_VFX/Materials/MoltTrailAdditive.mat using Guid(171307e20eda5c34d9c1428102dbe4d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31f2b229d67f187a7d54f92019234709') in 0.003516917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001300 seconds.
+  path: Assets/AddOns/MgFPS_Haku/HakuMeshesAndTextures/Textures/Haku_Main_MaskMap.png
+  artifactKey: Guid(37f2eb6849a5c2849b09b93dfe18a21f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Haku/HakuMeshesAndTextures/Textures/Haku_Main_MaskMap.png using Guid(37f2eb6849a5c2849b09b93dfe18a21f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '212117c157c76d4b4191bb42e14a68a7') in 0.028846958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003098 seconds.
+  path: Assets/AddOns/MgFPS_Haku/HakuMeshesAndTextures/Textures/Haku_Main_AlbedoTransparency.png
+  artifactKey: Guid(6f1d812fd2b4cab4e92e951b3ac3a604) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Haku/HakuMeshesAndTextures/Textures/Haku_Main_AlbedoTransparency.png using Guid(6f1d812fd2b4cab4e92e951b3ac3a604) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dec3e9a701e1bef0c092d6b5496d8bdb') in 0.02076975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002596 seconds.
+  path: Assets/AddOns/MgFPS_Haku/HakuMeshesAndTextures/Materials/Haku_Main.mat
+  artifactKey: Guid(dbe58165273b4d24d83198ff0454211d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Haku/HakuMeshesAndTextures/Materials/Haku_Main.mat using Guid(dbe58165273b4d24d83198ff0454211d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5346f02ff82d02e9634c422dbc447921') in 0.045740708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000906 seconds.
+  path: Assets/FPS/Scripts/UI/MenuNavigation.cs
+  artifactKey: Guid(705b060d91dd25446a76cfc9640acee4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Scripts/UI/MenuNavigation.cs using Guid(705b060d91dd25446a76cfc9640acee4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52c78571d02440e7abd6eb02f23179b6') in 0.003064834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000923 seconds.
+  path: Assets/FPS/Tutorials/EditColors/07-Exit-Play - delete.asset
+  artifactKey: Guid(15155edbeeb2248f59f97ad7fb417415) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Tutorials/EditColors/07-Exit-Play - delete.asset using Guid(15155edbeeb2248f59f97ad7fb417415) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a2e24f9e1f0d1e3819ef34e7602ce9b') in 0.005056209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Scenes/DemoFPSBoss/LightingData.asset
+  artifactKey: Guid(b90afdaa47a76ed4c85fe8a00d628584) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Scenes/DemoFPSBoss/LightingData.asset using Guid(b90afdaa47a76ed4c85fe8a00d628584) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3878becd4fcac7c7366d7fc64145b6a7') in 0.004330041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/FPS/Prefabs/RootObjects/OBJDun_BigDoor.obj
+  artifactKey: Guid(be360768de4eef5438409a0ecb7effcc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/RootObjects/OBJDun_BigDoor.obj using Guid(be360768de4eef5438409a0ecb7effcc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af5581db5a04a2c1be2600e6e71386b4') in 0.016139292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/FPS/Animation/HoverBot/HoverBot@RunFoward.fbx
+  artifactKey: Guid(77af6154680218844a53b30c3371260a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Animation/HoverBot/HoverBot@RunFoward.fbx using Guid(77af6154680218844a53b30c3371260a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '445ddb87bf7098509808298844eda567') in 0.011559208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/FPS/Art/Textures/Props/WallStatue_AO.png
+  artifactKey: Guid(7ce4c0badc2ab0a438848d86fb127b22) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Textures/Props/WallStatue_AO.png using Guid(7ce4c0badc2ab0a438848d86fb127b22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73a815c66bc5d8e058f75c4c78277431') in 0.005227916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000724 seconds.
+  path: Assets/FPS/Art/Textures/Props/StatueBig_Normal.png
+  artifactKey: Guid(1b8c2b2d5be41d84cb0f6f3acffaba19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Textures/Props/StatueBig_Normal.png using Guid(1b8c2b2d5be41d84cb0f6f3acffaba19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50b8fb61ae775cd59749441d32dce48d') in 0.010466916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/FPS/Art/Textures/UI/TEX_Black_16x16.png
+  artifactKey: Guid(3e7d439637d58744ba13be1b4b74413b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Textures/UI/TEX_Black_16x16.png using Guid(3e7d439637d58744ba13be1b4b74413b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1970eef4da2856ffd663fb057c48446') in 0.008319208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001752 seconds.
+  path: Assets/FPS/Art/Materials/VFX/Sun.mat
+  artifactKey: Guid(8da422a2fd1750842899fc4b5d7f9161) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Materials/VFX/Sun.mat using Guid(8da422a2fd1750842899fc4b5d7f9161) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02aa59736375f141e41123cb46c40328') in 0.005248083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/FPS/Art/Materials/VFX/Lazer_Red.mat
+  artifactKey: Guid(530af3a8082ffb14897ac6b74259b8a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Materials/VFX/Lazer_Red.mat using Guid(530af3a8082ffb14897ac6b74259b8a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3bb237d9420fcd008ced97a60da0843f') in 0.0026945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001292 seconds.
+  path: Assets/FPS/Art/Textures/Weapons/Blaster_Emissive.png
+  artifactKey: Guid(20b216283c466304b861dd810ff1afac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Textures/Weapons/Blaster_Emissive.png using Guid(20b216283c466304b861dd810ff1afac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23f266499bb1a01003e5b8a2500d76d6') in 0.021418667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001038 seconds.
+  path: Assets/FPS/Prefabs/Level/Dungeon/Dun_DeadEnd.prefab
+  artifactKey: Guid(321d2a485bfb5d34bb45484bb8f7f6f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/Level/Dungeon/Dun_DeadEnd.prefab using Guid(321d2a485bfb5d34bb45484bb8f7f6f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c563e854ff3728c0bc4fe6b4f7c28e56') in 0.004880542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/FPS/Art/Textures/Pickups/HealthPickup_AO.png
+  artifactKey: Guid(eea8ae6f986e93c4ea8ee71ef8316494) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Textures/Pickups/HealthPickup_AO.png using Guid(eea8ae6f986e93c4ea8ee71ef8316494) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd396f02f2d1acf39403ff5c09d2493e8') in 0.011923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/FPS/Prefabs/Level/Dungeon/Dun_BigDoor.prefab
+  artifactKey: Guid(7bb3ef68f11ffa04fac728ad3fdaccc7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/Level/Dungeon/Dun_BigDoor.prefab using Guid(7bb3ef68f11ffa04fac728ad3fdaccc7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e172f0536b3b03ce0155731dfa5370b') in 0.002915958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002930 seconds.
+  path: Assets/FPS/Art/Textures/Characters/Turret_Body_Albedo.png
+  artifactKey: Guid(2b69f8e6922e5dd44a04ac9b12005af7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Textures/Characters/Turret_Body_Albedo.png using Guid(2b69f8e6922e5dd44a04ac9b12005af7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5dc25d2d32b8e1fdbf61cf372423fc8e') in 0.005087958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/FPS/Audio/SFX/Weapons/Blaster_Shot.wav
+  artifactKey: Guid(53d2238f4c4b2aa4f8e559c7af9e0126) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Audio/SFX/Weapons/Blaster_Shot.wav using Guid(53d2238f4c4b2aa4f8e559c7af9e0126) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1af5ee03586e28dae816ff4c1836200') in 0.015300125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002344 seconds.
+  path: Assets/FPS/Art/Materials/VFX/Projectile_blue.mat
+  artifactKey: Guid(4892be09e48c5a441b36e4cffb963fb4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Materials/VFX/Projectile_blue.mat using Guid(4892be09e48c5a441b36e4cffb963fb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '083b6ed7a1515fc83c05d8a91509be82') in 0.004262292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004542 seconds.
+  path: Assets/FPS/Art/Textures/Characters/Turret_Light_Emission.png
+  artifactKey: Guid(935233d8608b4e844984c64d06fd2c01) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Textures/Characters/Turret_Light_Emission.png using Guid(935233d8608b4e844984c64d06fd2c01) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '283ca2df32cfdfe2e5f161779bf69edc') in 0.011569583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000668 seconds.
+  path: Assets/FPS/Prefabs/Level/Dungeon/Dun_Wall.prefab
+  artifactKey: Guid(cd17687759887a0438ee021e51abc9d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/Level/Dungeon/Dun_Wall.prefab using Guid(cd17687759887a0438ee021e51abc9d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a51e2401c03a10dec9adadc200783f9e') in 0.003247583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/FPS/Art/Materials/Weapons/Gun.mat
+  artifactKey: Guid(17a7e49545726f94f9d0b396b9b6d60b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Materials/Weapons/Gun.mat using Guid(17a7e49545726f94f9d0b396b9b6d60b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3212fe4d34f3b350561591b339e0bb76') in 0.00306075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001376 seconds.
+  path: Assets/FPS/Art/Materials/VFX/SmokeOverheat.mat
+  artifactKey: Guid(c0c800bf948180345ad0ef9380a6851f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Materials/VFX/SmokeOverheat.mat using Guid(c0c800bf948180345ad0ef9380a6851f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bceb609a1274ef9ae16ed9694d26a11b') in 0.0046315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000831 seconds.
+  path: Assets/FPS/Art/Textures/UI/Crosshair_Blaster_Center.png
+  artifactKey: Guid(2b5b80f3ebc88174a8c662e280fdb09c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Textures/UI/Crosshair_Blaster_Center.png using Guid(2b5b80f3ebc88174a8c662e280fdb09c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aed770cff5c2d1994324e12cd7e56dfe') in 0.006458375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003307 seconds.
+  path: Assets/FPS/Art/Materials/Weapons/WeaponBlaster.mat
+  artifactKey: Guid(378d0d996297d3146b8a2ec85e9065ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Materials/Weapons/WeaponBlaster.mat using Guid(378d0d996297d3146b8a2ec85e9065ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3adda65f534e2e1e635b77fedb1e2340') in 0.003014375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002416 seconds.
+  path: Assets/FPS/Art/Materials/VFX/ShrapnelTriangle.mat
+  artifactKey: Guid(01da79e0e5f33824fa9d48c9577b241b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Materials/VFX/ShrapnelTriangle.mat using Guid(01da79e0e5f33824fa9d48c9577b241b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd854be53707abb1e6af2be96c5f7ec85') in 0.003968125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/FPS/Art/Materials/VFX/HealthCube.mat
+  artifactKey: Guid(a0798aa25b2a35247b262820a588a364) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Materials/VFX/HealthCube.mat using Guid(a0798aa25b2a35247b262820a588a364) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf15d91a4f856730113809d130e658c3') in 0.003586333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/FPS/Audio/SFX/Weapons/Launcher_Charge_BuildUp.wav
+  artifactKey: Guid(7a0479c7c60da2d45b93a1af1afe6c1e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Audio/SFX/Weapons/Launcher_Charge_BuildUp.wav using Guid(7a0479c7c60da2d45b93a1af1afe6c1e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3350e6c05300c359163e090dba5ab00') in 0.052148125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001424 seconds.
+  path: Assets/FPS/Audio/SFX/Player/Damage_Tick.mp3
+  artifactKey: Guid(25e8bbe95ad4f344abd4dd8d7c8636ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Audio/SFX/Player/Damage_Tick.mp3 using Guid(25e8bbe95ad4f344abd4dd8d7c8636ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ba6d2049dd07fff18bacd74e292d8b3') in 0.024185833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/FPS/Prefabs/Level/BaseObjects/Floor_Indented_Mesh.prefab
+  artifactKey: Guid(18c9e52711cee4b40bfb4317ae7f329e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/Level/BaseObjects/Floor_Indented_Mesh.prefab using Guid(18c9e52711cee4b40bfb4317ae7f329e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c6666b94a3126426fa10d66b6d1f813') in 0.005146542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003490 seconds.
+  path: Assets/FPS/Art/Textures/Weapons/Launcher_MetallicSmooth.png
+  artifactKey: Guid(ee9913929019b1d4894602a3495db2a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Textures/Weapons/Launcher_MetallicSmooth.png using Guid(ee9913929019b1d4894602a3495db2a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce6dcbf5b9c554bccc768e226cd0e299') in 0.00662875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002570 seconds.
+  path: Assets/FPS/Art/Textures/Weapons/Blaster_Normal.png
+  artifactKey: Guid(e36972727074c2140a88fcc791bef9ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Textures/Weapons/Blaster_Normal.png using Guid(e36972727074c2140a88fcc791bef9ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4db71ddaca8788c9c2ad0a924056b8b') in 0.007318959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001076 seconds.
+  path: Assets/FPS/Audio/SFX/Pickups/Pickup_Weapon_Small.wav
+  artifactKey: Guid(7b83d61917ac1224f942a0609b1221f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Audio/SFX/Pickups/Pickup_Weapon_Small.wav using Guid(7b83d61917ac1224f942a0609b1221f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f09a904f063c9a83472edd860c431b9e') in 0.044166208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/FPS/Tutorials/BuildAndPublish/Criteria/PublishCriteria.cs
+  artifactKey: Guid(c3420f187011c1a43824ca0d4c88d6c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Tutorials/BuildAndPublish/Criteria/PublishCriteria.cs using Guid(c3420f187011c1a43824ca0d4c88d6c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f780d172248aced7aae3bd94343a5a9') in 0.004232708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/FPS/Prefabs/Level/Stairwell/Stairs_Large.prefab
+  artifactKey: Guid(757acbc2a10061e448acfff833eae77b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/Level/Stairwell/Stairs_Large.prefab using Guid(757acbc2a10061e448acfff833eae77b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '318adee6ae8d95c2481d7d211d6da234') in 0.007496458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 97
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/FPS/Prefabs/Level/Dungeon/Dun_Wall_Open.prefab
+  artifactKey: Guid(1e4bd8ac328e4bb4fbbee62ca0f24a98) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/Level/Dungeon/Dun_Wall_Open.prefab using Guid(1e4bd8ac328e4bb4fbbee62ca0f24a98) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '172dbe097642fd69bde49ed513291290') in 0.00813275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/FPS/Prefabs/Level/Stairwell/Stairs_Small.prefab
+  artifactKey: Guid(7108e150085af0d4fb586ff1f856a7f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/Level/Stairwell/Stairs_Small.prefab using Guid(7108e150085af0d4fb586ff1f856a7f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e913502b20b5197203fbe212fa7cd60') in 0.006292459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/FPS/Prefabs/Level/Floors/Floor_Altar.prefab
+  artifactKey: Guid(ff2889050d7d4414f98bf7a5cb0e54d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/Level/Floors/Floor_Altar.prefab using Guid(ff2889050d7d4414f98bf7a5cb0e54d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d10b030e6f7844a3788e8a1c20f5b71') in 0.006841125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 196
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Audio/SFX/Boss/Attack/PhotonCannon.wav
+  artifactKey: Guid(3d4222c2140a74a4e842c646c6da79f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Audio/SFX/Boss/Attack/PhotonCannon.wav using Guid(3d4222c2140a74a4e842c646c6da79f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b5f4aea7ab218b55b720b85bc7cf7fe') in 0.028851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/FPS/Prefabs/Level/Floors/Floor_Medium.prefab
+  artifactKey: Guid(4612dab1e987c984e8995eb7732fd0d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/Level/Floors/Floor_Medium.prefab using Guid(4612dab1e987c984e8995eb7732fd0d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a939370a856cdb4a8e0bb21535b531c1') in 0.011275333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 594
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/FPS/Prefabs/Level/MainLvl/Section3/Open_Ceiling.prefab
+  artifactKey: Guid(c0ceff72c62fad8459244ab9aa143285) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Prefabs/Level/MainLvl/Section3/Open_Ceiling.prefab using Guid(c0ceff72c62fad8459244ab9aa143285) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c50145f0f9c71fc41a28415a1cf1fbb') in 0.024942125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1456
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001193 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Audio/SFX/Boss/Attack/RocketLauncher.wav
+  artifactKey: Guid(239bcc95200bd4e4994fda3d0110fdb7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Audio/SFX/Boss/Attack/RocketLauncher.wav using Guid(239bcc95200bd4e4994fda3d0110fdb7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '862e4dc05c62c529c9d90ecffab4d758') in 0.050293542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002433 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Audio/SFX/Boss/Attack/RocketExplosion.wav
+  artifactKey: Guid(1f1ae13ff2b8a3c49929a518b771bfb1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Audio/SFX/Boss/Attack/RocketExplosion.wav using Guid(1f1ae13ff2b8a3c49929a518b771bfb1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60854aec4498be6b986b5f21e5e2dd01') in 0.028011375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/FPS/Audio/SFX/Enemies/Hoverbot_Death.wav
+  artifactKey: Guid(0a338d82d61863d4aa095317ca6ce19e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Audio/SFX/Enemies/Hoverbot_Death.wav using Guid(0a338d82d61863d4aa095317ca6ce19e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7976a32c889d59f4580c9b8dcb38d97e') in 0.02426725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000882 seconds.
+  path: Assets/FPS/Tutorials/Playtest/WT-Hiearchy.png
+  artifactKey: Guid(6f72f138bef974fbc9d23c3d07132789) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Tutorials/Playtest/WT-Hiearchy.png using Guid(6f72f138bef974fbc9d23c3d07132789) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc85aff952c4bad16bc219be8a3aea38') in 0.0091395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001447 seconds.
+  path: Assets/FPS/Art/Textures/UI/Radar_Enemy_IconBg.png
+  artifactKey: Guid(65c7da85c6d645744b9081be5782b153) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Art/Textures/UI/Radar_Enemy_IconBg.png using Guid(65c7da85c6d645744b9081be5782b153) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e8d9bed1695abf26e3fe03a4f24b12d') in 0.029167125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002650 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Animations/Animation/Weapon_Module@RocketLauncher_R_Shoot2.fbx
+  artifactKey: Guid(be3675076a2147c42a19ccb99b39da65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Animations/Animation/Weapon_Module@RocketLauncher_R_Shoot2.fbx using Guid(be3675076a2147c42a19ccb99b39da65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea2399a3d7c037810b40d3b913ac331f') in 0.006745542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000941 seconds.
+  path: Assets/FPS/Scripts/Game/IgnoreHeatMap.cs
+  artifactKey: Guid(853b31967a79acb49808dd17790b1c49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Scripts/Game/IgnoreHeatMap.cs using Guid(853b31967a79acb49808dd17790b1c49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '099e55ef4c498b8ab4313c85f9063fdc') in 0.001857416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000637 seconds.
+  path: Assets/ModAssets/Materials/Totems/M_StatueBig.mat
+  artifactKey: Guid(49d28db2438a811499460bb19c79b172) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ModAssets/Materials/Totems/M_StatueBig.mat using Guid(49d28db2438a811499460bb19c79b172) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03effe7dfc71ce08a9934a837a5f16fa') in 0.007255791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001040 seconds.
+  path: Assets/FPS/Tutorials/BuildAndPublish/Criteria/Unity.Microgame.Tutorials.asmdef
+  artifactKey: Guid(91426e0839faeb34d86ad8835bdfb743) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FPS/Tutorials/BuildAndPublish/Criteria/Unity.Microgame.Tutorials.asmdef using Guid(91426e0839faeb34d86ad8835bdfb743) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f393934c931a24490ae6f98233c91d31') in 0.003895625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/AddOns/MgFPS_Enemy_Boss/Animations/Animation/Enemy_Boss@Idle.fbx
+  artifactKey: Guid(c5f057e1e6b13904f9bb5af577fda074) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AddOns/MgFPS_Enemy_Boss/Animations/Animation/Enemy_Boss@Idle.fbx using Guid(c5f057e1e6b13904f9bb5af577fda074) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27a3f20fe66f66178484fb1eb872dce6') in 0.008170709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (3.1 MB). Loaded Objects now: 5309.
+Memory consumption went from 123.7 MB to 120.7 MB.
+Total: 26.515541 ms (FindLiveObjects: 0.360959 ms CreateObjectMapping: 0.076084 ms MarkObjects: 25.329583 ms  DeleteObjects: 0.748166 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 83 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (3.0 MB). Loaded Objects now: 5357.
+Memory consumption went from 127.4 MB to 124.4 MB.
+Total: 25.222542 ms (FindLiveObjects: 2.835250 ms CreateObjectMapping: 1.054334 ms MarkObjects: 20.587459 ms  DeleteObjects: 0.745041 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (3.0 MB). Loaded Objects now: 5359.
+Memory consumption went from 121.3 MB to 118.3 MB.
+Total: 10.711375 ms (FindLiveObjects: 0.452458 ms CreateObjectMapping: 0.092333 ms MarkObjects: 9.521584 ms  DeleteObjects: 0.643334 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
