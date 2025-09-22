@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: AddAnAsset-10
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Import the assets
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -35,7 +37,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Import the assets
+        m_Untranslated: 
       Text:
         m_Untranslated: You can download and import assets using the <b>Package Manager.</b>
       m_Tutorial: {fileID: 0}
@@ -61,7 +63,7 @@ MonoBehaviour:
 
 
           <b>2.</b>
-          Select the <b>Food pack</b> asset, then click the <b>Import</b> button
+          Select the <b>Food Props</b> asset, then click the <b>Import</b> button
           to open the <b>Import Unity Package</b> window.
 
 

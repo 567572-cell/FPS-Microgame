@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 93fbb109633e844259ea828442bda0cb
 timeCreated: 1484949512
-licenseType: Store
+licenseType: Pro
 AudioImporter:
   serializedVersion: 6
   defaultSettings:
@@ -19,10 +19,3 @@ AudioImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 156015
-  packageName: Unity Learn | FPS Microgame | URP
-  packageVersion: 3.1.0
-  assetPath: Assets/FPS/Tutorials/Pop.aiff
-  uploadId: 627568

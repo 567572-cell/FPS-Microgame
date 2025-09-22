@@ -80,11 +80,12 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Explore the game
+        m_Untranslated: 
       Text:
         m_Untranslated: "You can: \n\n\u2022 Move using the <b>WASD</b> or <b>arrow</b>
-          keys\n\n\u2022 Look around with your mouse or trackpad and click to shoot\n\n\u2022
-          Jump using the <b>spacebar</b>\n\n\u2022 Pause or view options using <b>Tab</b>"
+          keys.\n\n\u2022 Look around with your mouse or trackpad.\n\n\u2022 Click
+          to shoot.\n\n\u2022 Jump using the <b>spacebar.</b>\n\n\u2022 Pause or
+          view options using <b>Tab.</b>"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

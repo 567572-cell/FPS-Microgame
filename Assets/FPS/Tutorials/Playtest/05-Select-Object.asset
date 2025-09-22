@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: 05-Select-Object
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Select the Player GameObject
   m_Paragraphs:
     m_Items:
     - m_Type: 7
@@ -40,6 +42,7 @@ MonoBehaviour:
           m_MaskSizeModifier: 1
           m_UnmaskedControls:
           - m_SelectorMode: 0
+            m_SelectorMatchType: 0
             m_GUIContent:
               m_Text: Player
               m_Image: {fileID: 0}
@@ -69,13 +72,13 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Select the Player GameObject
+        m_Untranslated: 
       Text:
         m_Untranslated: "Next, let\u2019s make the player jump higher!\n\nGo deeper:\n\n\u2022
           Everything in your game world, including the player character, is called
-          a <b>GameObject</b>.\n\n\u2022The <b>Hierarchy</b> is where you organize
+          a <b>GameObject.</b>\n\n\u2022The <b>Hierarchy</b> is where you organize
           GameObjects \u2014 each one in your game is listed there.\n\n\u2022 Select
-          a GameObject to find out more about it and configure its behaviour."
+          a GameObject to find out more about it and configure its behavior."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -94,7 +97,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: Select the Player GameObject
       Text:
-        m_Untranslated: In the <b>Hierarchy</b>, select the <b>Player</b> GameObject.
+        m_Untranslated: In the <b>Hierarchy,</b> select the <b>Player</b> GameObject.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -185,6 +188,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 0
   m_ObjectReferences:
     m_Items:
     - m_SceneObjectReference:

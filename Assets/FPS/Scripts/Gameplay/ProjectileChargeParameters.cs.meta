@@ -9,10 +9,3 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 156015
-  packageName: Unity Learn | FPS Microgame | URP
-  packageVersion: 3.1.0
-  assetPath: Assets/FPS/Scripts/Gameplay/ProjectileChargeParameters.cs
-  uploadId: 627568

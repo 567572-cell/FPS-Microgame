@@ -1,12 +1,5 @@
 fileFormatVersion: 2
 guid: 5ac8547c1357e44ef84b3fdfda948b7f
-AssetOrigin:
-  serializedVersion: 1
-  productId: 156015
-  packageName: Unity Learn | FPS Microgame | URP
-  packageVersion: 3.1.0
-  assetPath: Assets/FPS/Tutorials/AddEnemyBot/WT-Select-Prefab.mov
-  uploadId: 627568
 VideoClipImporter:
   externalObjects: {}
   serializedVersion: 3

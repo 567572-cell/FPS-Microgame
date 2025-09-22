@@ -1,12 +1,5 @@
 fileFormatVersion: 2
 guid: 79dadb0d7a0c143db8700a2c64e462c8
-AssetOrigin:
-  serializedVersion: 1
-  productId: 156015
-  packageName: Unity Learn | FPS Microgame | URP
-  packageVersion: 3.1.0
-  assetPath: Assets/FPS/Tutorials/Playtest/WT-Select-Gameobject.mov
-  uploadId: 627568
 VideoClipImporter:
   externalObjects: {}
   serializedVersion: 3

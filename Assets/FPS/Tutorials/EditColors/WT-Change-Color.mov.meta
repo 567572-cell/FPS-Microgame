@@ -1,12 +1,5 @@
 fileFormatVersion: 2
 guid: fbc1259bdf8db429a911dc146b3bd2d5
-AssetOrigin:
-  serializedVersion: 1
-  productId: 156015
-  packageName: Unity Learn | FPS Microgame | URP
-  packageVersion: 3.1.0
-  assetPath: Assets/FPS/Tutorials/EditColors/WT-Change-Color.mov
-  uploadId: 627568
 VideoClipImporter:
   externalObjects: {}
   serializedVersion: 3

@@ -75,7 +75,7 @@ MonoBehaviour:
         m_Untranslated: "The <b>Gravity Down Force</b> property controls how high
           the player can jump.\n\nGo deeper:\n\n\u2022 When you select a GameObject
           in the Hierarchy, you\u2019ll see its <b>components</b> in the <b>Inspector</b>.
-          \n\n\u2022 Components contain <b>properities</b> that give a GameObject
+          \n\n\u2022 Components contain <b>properties</b> that give a GameObject
           specific functionalities.\n\n\u2022 The <b>Player Character Controller</b>
           properties are what make the player character move in response to player
           input."

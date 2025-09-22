@@ -1,14 +1,7 @@
 fileFormatVersion: 2
-guid: 8f9b202ceb1634283b1788e9323abf0f
+guid: 9fc0d4010bbf28b4594072e72b8655ab
 DefaultImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 156015
-  packageName: Unity Learn | FPS Microgame | URP
-  packageVersion: 3.1.0
-  assetPath: Assets/FPS/Scenes/SecondaryScene.unity
-  uploadId: 627568

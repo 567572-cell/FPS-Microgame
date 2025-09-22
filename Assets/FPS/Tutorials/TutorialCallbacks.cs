@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using Unity.Tutorials.Core.Editor;
 using UnityEditor;
+using UnityEngine.AI;
 using Unity.AI.Navigation;
 
 namespace Unity.Tutorials
@@ -68,7 +69,7 @@ namespace Unity.Tutorials
 
         public void StartTutorial(Tutorial tutorial)
         {
-            TutorialManager.Instance.StartTutorial(tutorial);
+            TutorialWindowUtils.StartTutorial(tutorial);
         }
     }
 }

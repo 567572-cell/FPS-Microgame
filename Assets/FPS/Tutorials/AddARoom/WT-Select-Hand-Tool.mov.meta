@@ -1,12 +1,5 @@
 fileFormatVersion: 2
 guid: 95df4ffa2c72c49f0b90fa2a68c3901b
-AssetOrigin:
-  serializedVersion: 1
-  productId: 156015
-  packageName: Unity Learn | FPS Microgame | URP
-  packageVersion: 3.1.0
-  assetPath: Assets/FPS/Tutorials/AddARoom/WT-Select-Hand-Tool.mov
-  uploadId: 627568
 VideoClipImporter:
   externalObjects: {}
   serializedVersion: 3

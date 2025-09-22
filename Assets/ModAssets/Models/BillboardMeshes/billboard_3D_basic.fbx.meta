@@ -111,10 +111,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 156015
-  packageName: Unity Learn | FPS Microgame | URP
-  packageVersion: 3.1.0
-  assetPath: Assets/ModAssets/Models/BillboardMeshes/billboard_3D_basic.fbx
-  uploadId: 627568

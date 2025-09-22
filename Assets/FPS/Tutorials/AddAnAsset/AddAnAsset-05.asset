@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: AddAnAsset-05
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Visit the Asset Store
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -35,15 +37,10 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Visit the Asset Store
+        m_Untranslated: 
       Text:
-        m_Untranslated: 'You can visit the <b>Unity Asset Store</b> either through
-          the website or the <b>Assets</b> folder of the Unity Editor.
-
-
-          <b>Note:</b>
-          It''s faster and easier to download and import assets directly through
-          the Unity Editor, but there are more assets available on the website.'
+        m_Untranslated: You can visit the <b>Unity Asset Store</b> anytime at <a
+          href="https://assetstore.unity.com">assetstore.unity.com</a>.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -63,12 +60,14 @@ MonoBehaviour:
         m_Untranslated: 
       Text:
         m_Untranslated: "<b>1.</b> Click the link below to view the free <b>Food
-          pack</b> assets on the Asset Store website.\n\n<a href=\"https://assetstore.unity.com/packages/3d/food-pack-3d-microgames-add-ons-163295\">Asset
-          Store</a>\n\n<b>2.</b> On the webpage, add the assets by clicking the <b>\"Add
-          to My Assets\u201D</b> button.\n\n<b>3.</b> After the <b>Food pack</b>
-          assets have been added, click the <b>\"Open in Unity\"</b> button.\n\n<b>4.</b>
-          Return to the Unity Editor, where the <b>Package Manager</b> window will
-          appear. Select <b>Next</b> to continue."
+          Props</b> assets on the Asset Store website.\n\n<a href=\"https://assetstore.unity.com/packages/3d/food-pack-3d-microgames-add-ons-163295\">Food
+          Props on the Asset Store</a>\n\n<b>2.</b> On the webpage, add the assets
+          by clicking the <b>\"Add to My Assets\u201D</b> button. (If the button
+          says \"Open in Unity,\" then you have already added this package to your
+          assets.)\n\n<b>3.</b> After the <b>Food Props</b> assets have been added,
+          click the <b>\"Open in Unity\"</b> button.\n\n<b>4.</b> Return to the Unity
+          Editor, where the <b>Package Manager</b> window will appear. Select <b>Next</b>
+          to continue."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
